@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="RentContract" targetNamespace="http://tempuri.org/Customer.xsd" xmlns:mstns="http://tempuri.org/Customer.xsd" xmlns="http://tempuri.org/Customer.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="RentContract" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="RentContract" msprop:Generator_DataSetName="_RentContract" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dsRentContract" msprop:Generator_UserTableName="dsRentContract" msprop:Generator_RowDeletedName="dsRentContractRowDeleted" msprop:Generator_RowChangedName="dsRentContractRowChanged" msprop:Generator_RowClassName="dsRentContractRow" msprop:Generator_RowChangingName="dsRentContractRowChanging" msprop:Generator_RowEvArgName="dsRentContractRowChangeEvent" msprop:Generator_RowEvHandlerName="dsRentContractRowChangeEventHandler" msprop:Generator_TableClassName="dsRentContractDataTable" msprop:Generator_TableVarName="tabledsRentContract" msprop:Generator_RowDeletingName="dsRentContractRowDeleting" msprop:Generator_TablePropName="dsRentContract">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BuildingId" msprop:Generator_UserColumnName="BuildingId" msprop:Generator_ColumnVarNameInTable="columnBuildingId" msprop:Generator_ColumnPropNameInRow="BuildingId" msprop:Generator_ColumnPropNameInTable="BuildingIdColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CustomerId" msprop:Generator_UserColumnName="CustomerId" msprop:Generator_ColumnVarNameInTable="columnCustomerId" msprop:Generator_ColumnPropNameInRow="CustomerId" msprop:Generator_ColumnPropNameInTable="CustomerIdColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ContractId" msdata:Caption="Name" msprop:Generator_UserColumnName="ContractId" msprop:Generator_ColumnVarNameInTable="columnContractId" msprop:Generator_ColumnPropNameInRow="ContractId" msprop:Generator_ColumnPropNameInTable="ContractIdColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ContractDate" msdata:Caption="Phone" msprop:Generator_UserColumnName="ContractDate" msprop:Generator_ColumnVarNameInTable="columnContractDate" msprop:Generator_ColumnPropNameInRow="ContractDate" msprop:Generator_ColumnPropNameInTable="ContractDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ContractEndDate" msdata:Caption="Email" msprop:Generator_UserColumnName="ContractEndDate" msprop:Generator_ColumnVarNameInTable="columnContractEndDate" msprop:Generator_ColumnPropNameInRow="ContractEndDate" msprop:Generator_ColumnPropNameInTable="ContractEndDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ReceiveDate" msdata:Caption="ContactName" msprop:Generator_UserColumnName="ReceiveDate" msprop:Generator_ColumnVarNameInTable="columnReceiveDate" msprop:Generator_ColumnPropNameInRow="ReceiveDate" msprop:Generator_ColumnPropNameInTable="ReceiveDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="StaffMount" msdata:Caption="DataColumn1" msprop:Generator_UserColumnName="StaffMount" msprop:Generator_ColumnVarNameInTable="columnStaffMount" msprop:Generator_ColumnPropNameInRow="StaffMount" msprop:Generator_ColumnPropNameInTable="StaffMountColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="CarParkingMount" msdata:Caption="DataColumn1" msprop:Generator_UserColumnName="CarParkingMount" msprop:Generator_ColumnVarNameInTable="columnCarParkingMount" msprop:Generator_ColumnPropNameInRow="CarParkingMount" msprop:Generator_ColumnPropNameInTable="CarParkingMountColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="MotorParkingMount" msdata:Caption="DataColumn1" msprop:Generator_UserColumnName="MotorParkingMount" msprop:Generator_ColumnVarNameInTable="columnMotorParkingMount" msprop:Generator_ColumnPropNameInRow="MotorParkingMount" msprop:Generator_ColumnPropNameInTable="MotorParkingMountColumn" type="xs:short" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

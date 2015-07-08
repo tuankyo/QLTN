@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="OneColumn.master.cs"
+    Inherits="Man.MasterPage.OneColumn" %>
+
+<%@ Register Src="~/UserControls/Common/NavigationBar.ascx" TagName="NavigationBar"
+    TagPrefix="uc2" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Title</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="mainForm" runat="server">
+    <table align="center" cellpadding="0" cellspacing="0" style="height: 100%;">
+        <tr>
+            <td>
+                <br />
+                <!--<img alt= ""  src="App_Themes/Default/Images/AbcHeader.gif" border="0" />-->
+                <br />
+                <br />
+                <br />
+            </td>
+        </tr>
+        <tr>
+            <td align="center">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolderMain" runat="server">
+                </asp:ContentPlaceHolder>
+            </td>
+        </tr>
+        <tr>
+            <td align="center">
+                <br />
+                <br />
+                <br />
+                <br />
+                <font size="2">CÔNG TY CỔ PHẦN SÀI GÒN TRIỂN VỌNG (Savista) </font>
+                <br />
+                <font size="2">Copyright &copy; 2010 All rights reserved. </font>
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>

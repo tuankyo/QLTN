@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode title=""  description="Main System Menu" roles="*">
+        <siteMapNode title="Quản Lý Danh Mục"   description="" roles="Administrators,PowerUsers,PublicUsers" >
+          <siteMapNode url="Artist/ListArtist.aspx" title="Chung Cư" description=""/>
+          <siteMapNode url="Album/ListAlbum.aspx" title="Các Loại Phí" description=""/>
+          <siteMapNode url="Genre/ListGenre.aspx" title="Căn Hộ" description=""/>
+          <siteMapNode url="Contractor/ListContractor.aspx" title="Định Mức Nước" description=""/>
+          <siteMapNode url="Label/ListLabel.aspx" title="ﾚｰﾍﾞﾙ一覧" description="ﾚｰﾍﾞﾙ"/>
+          <siteMapNode url="MusicStyle/ListMusicStyle.aspx" title="ｽﾀｲﾙ一覧" description="ｽﾀｲﾙ"/>
+          <siteMapNode url="OutOfCharge/ListOutOfCharge.aspx" title="除外ﾁｬｰｼﾞ一覧" description="除外ﾁｬｰｼﾞ"/>
+          <siteMapNode url="Carrier/ListCarrierMtAll.aspx" title="端末対応一覧" description="ｻｲﾄの端末"/>
+          <siteMapNode url="Affiliate/ListAffiliate.aspx" title="ｱﾌｨﾙｴｲﾄ一覧" description="ｱﾌｨﾙｴｲﾄｺｰﾄﾞ管理"/>
+          <siteMapNode url="CharChange/ListCharChange.aspx" title="交換文字一覧" description="交換文字管理"/>
+          <siteMapNode url="Schedule/ListExpandSchedule.aspx" title="展開スケジュール一覧" description="展開スケジュール管理"/>
+        </siteMapNode>
+      <siteMapNode title="総合検索用" description="" roles="Administrators,PowerUsers,PublicUsers" >
+        <siteMapNode url="IcjMediaSearch/Sync.aspx" title="同期" description=""/>
+      </siteMapNode>
+
+      <siteMapNode title="一括登録管理"   description="" roles="Administrators,PowerUsers,PublicUsers" >
+            <!--<siteMapNode url="MasterImport/RefreshData.aspx" title="最新データ取得" description=""/>-->
+            <!--<siteMapNode url="MasterImport/MasterImport.aspx" title="ﾌﾙ/うた/ﾋﾞﾃﾞｵ" description=""/>-->
+            <siteMapNode url="MasterImport/NewMasterImport.aspx" title="着情報新規" description=""/>
+            <siteMapNode url="MasterImport/FullUpdateMasterImport.aspx" title="着ﾌﾙ更新" description=""/>
+            <siteMapNode url="MasterImport/UtaUpdateMasterImport.aspx" title="着うた更新" description=""/>
+            <siteMapNode url="MasterImport/NewRbtImport.aspx" title="RBT新規" description=""/>
+          <siteMapNode url="MasterImport/RbtUpdateImport.aspx" title="RBT更新" description=""/>
+            <siteMapNode url="MasterImport/NewKaraokeImport.aspx" title="ｶﾗｵｹ新規" description=""/>
+            <siteMapNode url="MasterImport/NewMeloImport.aspx" title="メロ新規" description=""/>
+            <siteMapNode url="MasterImport/UtaRegister.aspx" title="着うた一括" description=""/>
+          <siteMapNode url="MasterImport/UpdateTextImport.aspx" title="ﾃｷｽﾄ更新" description=""/>
+        </siteMapNode>
+        <siteMapNode title="情報更新管理"   description="" roles="Administrators,PowerUsers,PublicUsers" >
+            <siteMapNode url="Update/GetterFileSize.aspx" title="ﾌｧｲﾙｻｲｽﾞ" description=""/>
+            <siteMapNode url="Update/GetterSbLincense.aspx" title="Sbﾗｲｾﾝｽｷｰ" description=""/>
+            <siteMapNode url="Update/UpdateHaishinFlag.aspx" title="配信ﾌﾗｸﾞ更新" description=""/>
+            <siteMapNode url="Song/StopActiveSetting.aspx" title="配信ﾌﾗｸﾞ停止" description=""/>
+            <siteMapNode url="Update/MosVideoAu.aspx" title="au動画配信(MOS)" description=""/>
+            <siteMapNode url="Update/CommonUpdate.aspx" title="着信設定情報" description=""/>
+        </siteMapNode>
+        <siteMapNode title="サイト同期管理"   description="" roles="Administrators,PowerUsers,PublicUsers" >
+            <siteMapNode url="Song/Master.aspx" title="ﾏｽﾀ" description=""/>
+            <siteMapNode url="Song/ListFullSong.aspx" title="着うたﾌﾙ" description=""/>
+            <siteMapNode url="Song/ListUtaSong.aspx" title="着うた" description=""/>
+            <siteMapNode url="Song/ListVideoSong.aspx" title="ﾋﾞﾃﾞｵ" description=""/>
+            <siteMapNode url="Song/ListRBTSong.aspx" title="RBT" description=""/>
+            <siteMapNode url="Song/ListKaraokeSong.aspx" title="ｶﾗｵｹ" description=""/>
+            <siteMapNode url="Song/ListMeloSong.aspx" title="着メロ" description=""/>
+            <!--</siteMapNode>
+    <siteMapNode title="楽曲同期管理"   description="" roles="Administrators,PowerUsers,PublicUsers" >
+      <siteMapNode url="Sync/ListSyncSong.aspx" title="同期" description=""/>-->
+            <siteMapNode url="Song/ListNullSearch.aspx" title="ヌルﾃﾞｰﾀ検索" description=""/>
+            <!--<siteMapNode url="Song/CSVSongListCheck.aspx" title="反映済ﾃﾞｰﾀ" description=""/>-->
+        </siteMapNode>
+      <siteMapNode title="キャリア検索管理"   description="" roles="Administrators,PowerUsers,PublicUsers" >
+        <siteMapNode url="CarrierSearch/ListSbSearch.aspx" title="SB用" description=""/>
+        <siteMapNode url="CarrierSearch/ListAuSearch.aspx" title="AU用" description=""/>
+        <siteMapNode url="CarrierSearch/ListDcSearch.aspx" title="DC用" description=""/>
+      </siteMapNode>
+      <siteMapNode title="情報出力管理"   description="" roles="Administrators,PowerUsers,PublicUsers" >
+            <siteMapNode url="Output/RbtUploadExport.aspx" title="RBTｱｯﾌﾟﾛｰﾄﾞ用出力" description=""/>
+            <siteMapNode url="Output/DocomoSpecial.aspx" title="Docomoｽﾍﾟｼｬﾙ" description=""/>
+            <siteMapNode url="Output/Softbank.aspx" title="Softbank" description=""/>
+            <siteMapNode url="Output/Toshiba.aspx" title="音源ﾌｧｲﾙ名変換" description=""/>
+            <siteMapNode url="Output/Matsushita.aspx" title="松下ﾂｰﾙ" description=""/>
+            <siteMapNode url="Output/AuUtaChange.aspx" title="au着うた変換" description=""/>
+            <siteMapNode url="Output/SbVideoClip.aspx" title="Sbﾋﾞﾃﾞｵｸﾘｯﾌﾟ" description=""/>
+            <siteMapNode url="Output/DcVideoClip.aspx" title="Dcﾋﾞﾃﾞｵｸﾘｯﾌﾟ" description=""/>
+            <siteMapNode url="Output/AuVideoClip.aspx" title="Auﾋﾞﾃﾞｵｸﾘｯﾌﾟ" description=""/>
+            <siteMapNode url="Output/MosVideoAu.aspx" title="au動画配信(MOS)" description=""/>
+            <siteMapNode url="Output/ListCommonUpdateFull.aspx" title="着信設定情報(ﾌﾙ)" description=""/>
+            <siteMapNode url="Output/ListCommonUpdateVideo.aspx" title="着信設定情報(ﾋﾞﾃﾞｵ)" description=""/>
+            <siteMapNode url="Output/TrialListenAutoGenerate.aspx" title="視聴用wav自動切り出し" description=""/>
+            <siteMapNode url="Output/UtaAutoGenerate.aspx" title="うた用wav自動切り出し" description=""/>
+            <siteMapNode url="Output/MyspaceRanking.aspx" title="ﾏｲｽﾍﾟｽﾗﾝｷﾝｸﾞ報告" description=""/>
+            <siteMapNode url="ProfitSpecialMonth/ProfitSpecialMonth.aspx" title="月別売上表" description=""/>
+        </siteMapNode>
+        <siteMapNode title="支払い"   description="" roles="Administrators,PowerUsers,PublicUsers" >
+            <siteMapNode url="MasterImport/RbtDownloadImport.aspx" title="RBTﾀﾞｳﾝﾛｰﾄﾞｲﾝﾎﾟｰﾄ" description=""/>
+            <siteMapNode url="Payment/RbtSaveCSVFiles.aspx" title="RBT報告出力" description=""/>
+
+            <siteMapNode url="Payment/Payment.aspx" title="実績計算" description=""/>
+            <!--<siteMapNode url="Payment/PaymentResult.aspx" title="支払結果出力" description=""/>-->
+            <siteMapNode url="Payment/PaymentContractor.aspx" title="権利者報告" description=""/>
+            <siteMapNode url="Payment/PaymentCopyrightContract.aspx" title="著作権管理団体報告" description=""/>
+            <siteMapNode url="Payment/PaymentAccounting.aspx" title="経理報告" description=""/>
+            <!-- QDo started 100927-->
+            <siteMapNode url="Payment/RoyaltyDocument.aspx" title="印税資料" description=""/>
+            <!-- QDo ended 100927-->
+            <siteMapNode url="Payment/PaymentDetailSearch.aspx" title="実績一覧" description=""/>
+            <siteMapNode url="Payment/DownloadInformation.aspx" title="ﾀﾞｳﾝﾛｰﾄﾞ一覧" description=""/>
+            <siteMapNode url="Payment/DownloadSummary.aspx" title="ﾀﾞｳﾝﾛｰﾄﾞ集計" description=""/>
+            <siteMapNode url="Download/ListDownload.aspx" title="ﾀﾞｳﾝﾛｰﾄﾞ合計" description=""/>
+            <siteMapNode url="Payment/CopyrightManageGroupDetailImport.aspx" title="著作権管理団体明細ｲﾝﾎﾟｰﾄ" description=""/>
+            <siteMapNode url="Payment/CopyrightManageGroupDetailExport.aspx" title="著作権管理団体明細出力" description=""/>
+        </siteMapNode>
+      <siteMapNode title="支払い(再計算)"   description="" roles="Administrators,PowerUsers,PublicUsers" >
+        <siteMapNode url="ModifyPayment/MPayment.aspx" title="実績計算" description=""/>
+        <siteMapNode url="ModifyPayment/MPaymentContractor.aspx" title="権利者報告" description=""/>
+        <siteMapNode url="ModifyPayment/MPaymentCopyrightContract.aspx" title="著作権管理団体報告" description=""/>
+        <siteMapNode url="ModifyPayment/MPaymentAccounting.aspx" title="経理報告" description=""/>
+      </siteMapNode>
+      <siteMapNode title="配信ｽｹｼﾞｭｰﾙ管理"   description="" roles="Administrators,PowerUsers,PublicUsers, SalesUsers, Level1, Level2, Level3 " >
+        <siteMapNode url="Schedule/AddScheduleGroup.aspx" title="ｸﾞﾙｰﾌﾟ登録" description=""/>
+        <siteMapNode url="Schedule/ScheduleImport.aspx" title="一括ｽｹｼﾞｭｰﾙ登録" description=""/>
+        <siteMapNode url="Schedule/ListSchedule.aspx" title="ｽｹｼﾞｭｰﾙ一覧" description=""/>
+        <siteMapNode url="Schedule/ExpandSchedule.aspx" title="展開スケジュール" description=""/>
+        <siteMapNode url="Schedule/SongCreateSchedule.aspx" title="歌詞画作成スケジュール" description=""/>
+      </siteMapNode>
+
+      <siteMapNode title="ｼｽﾃﾑ管理"   description="" roles="Administrators,PowerUsers" >
+            <siteMapNode url="User/ListUser.aspx" title="担当者" description=""/>
+            <siteMapNode url="Site/ListSite.aspx" title="ｻｲﾄ一覧" description=""/>
+            <siteMapNode url="Management/SynLog.aspx" title="同期履歴" description=""/>
+            <!-- <siteMapNode url="file:///\\192.168.40.20\Temp" title="ﾛｰｶﾙﾌｫﾙﾀﾞ" description="" /> -->
+            <siteMapNode url="file:///\\192.168.0.15\Group\ICJ\Mone" title="ﾛｰｶﾙﾌｫﾙﾀﾞ" description="" />
+        </siteMapNode>
+            <!--<siteMapNode title="結果テスト"   description="" roles="Level1" >
+      <siteMapNode url="Report/ListPayment.aspx?CopyrightContractId = 47" title="支払一覧" description=""/>
+    </siteMapNode>-->
+    </siteMapNode>
+</siteMap>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode title=""  description="Main System Menu" roles="*">
+    <siteMapNode title="Quản Lý Danh Mục"   description="" roles="Administrators,PowerUsers" >
+      <siteMapNode url="VehicleType/ListVehicleType.aspx" title="Danh Sách Các Loại Xe" description=""/>
+      <siteMapNode url="Tenement/ListTenement.aspx" title="Danh Sách Chung Cư" description=""/>
+    </siteMapNode>
+    <siteMapNode title="Thêm Mới"   description="" roles="Administrators,PowerUsers" >
+      <siteMapNode url="Flat/ListFlat.aspx" title="Danh Sách Căn Hộ" description=""/>
+    </siteMapNode>
+    <siteMapNode title="Trả Phí"   description="" roles="Administrators,PowerUsers" >
+      <siteMapNode url="Report/PaymentFeeCal.aspx" title="Quyết Sổ" description=""/>
+      <siteMapNode url="Flat/ListPaymentFlat.aspx" title="Danh Sách Nợ" description=""/>
+    </siteMapNode>
+    <siteMapNode title="Báo Cáo"   description="" roles="Administrators,PowerUsers" >
+      <siteMapNode url="Report/ListFlatReport.aspx" title="Thu Phí Tháng" description=""/>
+      <siteMapNode url="Report/ListFileReport.aspx" title="DS File đã xuất" description=""/>
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

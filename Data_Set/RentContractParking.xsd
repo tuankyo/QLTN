@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="RentContractParking" targetNamespace="http://tempuri.org/Customer.xsd" xmlns:mstns="http://tempuri.org/Customer.xsd" xmlns="http://tempuri.org/Customer.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="RentContractParking" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="RentContractParking" msprop:Generator_DataSetName="_RentContractParking" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dsRentContractParking" msprop:Generator_UserTableName="dsRentContractParking" msprop:Generator_RowDeletedName="dsRentContractParkingRowDeleted" msprop:Generator_RowChangedName="dsRentContractParkingRowChanged" msprop:Generator_RowClassName="dsRentContractParkingRow" msprop:Generator_RowChangingName="dsRentContractParkingRowChanging" msprop:Generator_RowEvArgName="dsRentContractParkingRowChangeEvent" msprop:Generator_RowEvHandlerName="dsRentContractParkingRowChangeEventHandler" msprop:Generator_TableClassName="dsRentContractParkingDataTable" msprop:Generator_TableVarName="tabledsRentContractParking" msprop:Generator_RowDeletingName="dsRentContractParkingRowDeleting" msprop:Generator_TablePropName="dsRentContractParking">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BuildingId" msprop:Generator_UserColumnName="BuildingId" msprop:Generator_ColumnVarNameInTable="columnBuildingId" msprop:Generator_ColumnPropNameInRow="BuildingId" msprop:Generator_ColumnPropNameInTable="BuildingIdColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CustomerId" msprop:Generator_UserColumnName="CustomerId" msprop:Generator_ColumnVarNameInTable="columnCustomerId" msprop:Generator_ColumnPropNameInRow="CustomerId" msprop:Generator_ColumnPropNameInTable="CustomerIdColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ContractId" msdata:Caption="Name" msprop:Generator_UserColumnName="ContractId" msprop:Generator_ColumnVarNameInTable="columnContractId" msprop:Generator_ColumnPropNameInRow="ContractId" msprop:Generator_ColumnPropNameInTable="ContractIdColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" msdata:Caption="Phone" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="PriceVND" msdata:Caption="ContactName" msprop:Generator_UserColumnName="PriceVND" msprop:Generator_ColumnVarNameInTable="columnPriceVND" msprop:Generator_ColumnPropNameInRow="PriceVND" msprop:Generator_ColumnPropNameInTable="PriceVNDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="PriceUSD" msdata:Caption="DataColumn1" msprop:Generator_UserColumnName="PriceUSD" msprop:Generator_ColumnVarNameInTable="columnPriceUSD" msprop:Generator_ColumnPropNameInRow="PriceUSD" msprop:Generator_ColumnPropNameInTable="PriceUSDColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="VAT" msdata:Caption="DataColumn1" msprop:Generator_UserColumnName="VAT" msprop:Generator_ColumnPropNameInRow="VAT" msprop:Generator_ColumnVarNameInTable="columnVAT" msprop:Generator_ColumnPropNameInTable="VATColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="OtherFee01" msdata:Caption="DataColumn1" msprop:Generator_UserColumnName="OtherFee01" msprop:Generator_ColumnPropNameInRow="OtherFee01" msprop:Generator_ColumnVarNameInTable="columnOtherFee01" msprop:Generator_ColumnPropNameInTable="OtherFee01Column" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="BuildingUsedElecWaterInfo" targetNamespace="http://tempuri.org/Customer.xsd" xmlns:mstns="http://tempuri.org/Customer.xsd" xmlns="http://tempuri.org/Customer.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="BuildingUsedElecWaterInfo" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="BuildingUsedElecWaterInfo" msprop:Generator_DataSetName="_BuildingUsedElecWaterInfo" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dsBuildingUsedElecWaterInfo" msprop:Generator_UserTableName="dsBuildingUsedElecWaterInfo" msprop:Generator_RowDeletedName="dsBuildingUsedElecWaterInfoRowDeleted" msprop:Generator_RowChangedName="dsBuildingUsedElecWaterInfoRowChanged" msprop:Generator_RowClassName="dsBuildingUsedElecWaterInfoRow" msprop:Generator_RowChangingName="dsBuildingUsedElecWaterInfoRowChanging" msprop:Generator_RowEvArgName="dsBuildingUsedElecWaterInfoRowChangeEvent" msprop:Generator_RowEvHandlerName="dsBuildingUsedElecWaterInfoRowChangeEventHandler" msprop:Generator_TableClassName="dsBuildingUsedElecWaterInfoDataTable" msprop:Generator_TableVarName="tabledsBuildingUsedElecWaterInfo" msprop:Generator_RowDeletingName="dsBuildingUsedElecWaterInfoRowDeleting" msprop:Generator_TablePropName="dsBuildingUsedElecWaterInfo">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="YearMonth" msprop:Generator_UserColumnName="YearMonth" msprop:Generator_ColumnVarNameInTable="columnYearMonth" msprop:Generator_ColumnPropNameInRow="YearMonth" msprop:Generator_ColumnPropNameInTable="YearMonthColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="BuildingId" msprop:Generator_UserColumnName="BuildingId" msprop:Generator_ColumnVarNameInTable="columnBuildingId" msprop:Generator_ColumnPropNameInRow="BuildingId" msprop:Generator_ColumnPropNameInTable="BuildingIdColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CompanyName" msprop:Generator_UserColumnName="CompanyName" msprop:Generator_ColumnVarNameInTable="columnCompanyName" msprop:Generator_ColumnPropNameInRow="CompanyName" msprop:Generator_ColumnPropNameInTable="CompanyNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Regional" msprop:Generator_UserColumnName="Regional" msprop:Generator_ColumnVarNameInTable="columnRegional" msprop:Generator_ColumnPropNameInRow="Regional" msprop:Generator_ColumnPropNameInTable="RegionalColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="UsedIndex" msprop:Generator_UserColumnName="UsedIndex" msprop:Generator_ColumnVarNameInTable="columnUsedIndex" msprop:Generator_ColumnPropNameInRow="UsedIndex" msprop:Generator_ColumnPropNameInTable="UsedIndexColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="PriceVND" msprop:Generator_UserColumnName="PriceVND" msprop:Generator_ColumnVarNameInTable="columnPriceVND" msprop:Generator_ColumnPropNameInRow="PriceVND" msprop:Generator_ColumnPropNameInTable="PriceVNDColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="PriceUSD" msprop:Generator_UserColumnName="PriceUSD" msprop:Generator_ColumnVarNameInTable="columnPriceUSD" msprop:Generator_ColumnPropNameInRow="PriceUSD" msprop:Generator_ColumnPropNameInTable="PriceUSDColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="LastPriceVND" msdata:Caption="DataColumn1" msprop:Generator_UserColumnName="LastPriceVND" msprop:Generator_ColumnVarNameInTable="columnLastPriceVND" msprop:Generator_ColumnPropNameInRow="LastPriceVND" msprop:Generator_ColumnPropNameInTable="LastPriceVNDColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="LastPriceUSD" msdata:Caption="DataColumn1" msprop:Generator_UserColumnName="LastPriceUSD" msprop:Generator_ColumnPropNameInRow="LastPriceUSD" msprop:Generator_ColumnVarNameInTable="columnLastPriceUSD" msprop:Generator_ColumnPropNameInTable="LastPriceUSDColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TypeInfo" msprop:Generator_UserColumnName="TypeInfo" msprop:Generator_ColumnVarNameInTable="columnTypeInfo" msprop:Generator_ColumnPropNameInRow="TypeInfo" msprop:Generator_ColumnPropNameInTable="TypeInfoColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

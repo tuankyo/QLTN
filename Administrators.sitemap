@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode title=""  description="Main System Menu" roles="*">
+    <siteMapNode title="Quản Lý Tòa Nhà" description="" roles="Administrators" >
+      <siteMapNode url="Building/BuildingList.aspx" title="Tòa nhà cho thuê" description=""/>
+      <siteMapNode title="Biểu phí" description="" roles="Administrators" >
+        <siteMapNode url="Building/ElecTariffs/BD_ElecTariffsList.aspx" title="Biểu phí sử dụng điện" description=""/>
+        <siteMapNode url="Building/WaterTariffs/BD_WaterTariffsList.aspx" title="Biểu phí sử dụng nước" description=""/>
+        <siteMapNode url="Building/PackingTariffs/BD_TariffsOfPackingList.aspx" title="Biểu phí gửi xe tháng" description=""/>
+      </siteMapNode>
+      <siteMapNode title="Thông Tin Tòa nhà"   description="" roles="Administrators" >
+        <siteMapNode url="Building/RoomType/BD_RoomTypeList.aspx" title="Loại phòng cho thuê" description=""/>
+        <siteMapNode url="Building/Room/BD_RoomList.aspx" title="Phòng cho thuê" description=""/>
+        <siteMapNode url="RentContract/UsedElectricRoom.aspx" title="Sử dụng điện" description=""/>
+        <siteMapNode url="RentContract/UsedWaterRoom.aspx" title="Sử dụng nước" description=""/>
+      </siteMapNode>
+      <siteMapNode title="Quản lý Nhân Viên"   description="" roles="Administrators" >
+        <!--<siteMapNode url="MasterData/JobType/JobTypeList.aspx" title="Nhóm Công việc" description=""/>-->
+        <siteMapNode url="Building/Staff/BD_StaffList.aspx" title="Nhân viên" description=""/>
+        <siteMapNode url="Building/WorkingHour/BD_WorkingHourList.aspx" title="Ca làm việc" description=""/>
+        <siteMapNode url="Building/WorkingPlace/BD_WorkingPlaceList.aspx" title="Nơi làm việc" description=""/>
+        <siteMapNode url="Building/WorkingSheduleInfo/BD_WorkingSheduleInfo1.aspx" title="Xuất lịch làm việc" description=""/>
+        <siteMapNode url="Building/WorkingWorkedInfo/BD_WorkingWorkedInfo2.aspx" title="Khai báo hoàn việc" description=""/>
+        <siteMapNode url="Building/WorkingWorkedInfo/BD_WorkingWorkedInfo3.aspx" title="Làm ngoài giờ" description=""/>
+        <siteMapNode url="Building/WorkingExtraTimeInfo/BD_WorkingExtraTimeInfo.aspx" title="Đánh giá nhân viên" description=""/>
+      </siteMapNode>
+      <siteMapNode title="Quản lý Thiết-Bị Vật Tư"   description="" roles="Administrators" >
+        <siteMapNode url="Building/Equipment/BD_EquipmentList.aspx" title="Trang thiết bị" description=""/>
+        <siteMapNode url="Building/Supplies/BD_SuppliesList.aspx" title="Vật tư" description=""/>
+        <siteMapNode url="Building/Document/BD_Document.aspx?type=1" title="Hồ sơ(tòa nhà)" description=""/>
+        <siteMapNode url="Building/Document/BD_Document.aspx?type=2" title="Hồ sơ(kỹ thuật)" description=""/>
+        <siteMapNode url="Building/Document/BD_Document.aspx?type=3" title="Hồ sơ(hánh chính)" description=""/>
+        <siteMapNode url="Building/Document/BD_Document.aspx?type=4" title="Hồ sơ(kế toán)" description=""/>
+      </siteMapNode>
+      <siteMapNode title="Quản Lý Hợp Đồng"   description="" roles="Administrators" >
+        <siteMapNode url="Customer/CustomerList.aspx" title="Khách hàng" description=""/>
+        <siteMapNode url="RentContract/RentContractList.aspx" title="Hợp đồng thuê" description=""/>
+        <siteMapNode url="RentContract/List.aspx" title="Đặt phòng họp" description=""/>
+      </siteMapNode>
+    </siteMapNode>
+
+    <!--    <siteMapNode title="Hoạt Động Tòa nhà"   description="" roles="Administrators" >
+      <siteMapNode url="Building/BD_WorkingSheduleInfoList.aspx" title="Lịch làm việc" description=""/>
+      <siteMapNode url="Building/BD_WorkingWorkedInfoList.aspx" title="Làm việc thực tế" description=""/>
+      <siteMapNode url="Building/BD_WorkingExtraTimeInfoList.aspx" title="Làm việc ngoài giờ" description=""/>
+      <siteMapNode url="Building/BD_WorkingExtraTimeInfoList.aspx" title="Đánh giá nhân viên" description=""/>
+      <siteMapNode url="Building/BD_EximEquipmentInfoList.aspx" title="Nhập xuất Trang Thiết Bị" description=""/>
+      <siteMapNode url="Building/WorkingPlaceList.aspx" title="Bảo trì đồ dùng" description=""/>
+      <siteMapNode url="Building/AriclesList.aspx" title="Vé giữ xe" description=""/>
+      <siteMapNode url="Building/EquipmentList.aspx" title="Hiện trạng tòa nhà" description=""/>
+      <siteMapNode url="Building/EquipmentList.aspx" title="Tình trạng thi công" description=""/>
+      <siteMapNode url="Building/EquipmentList.aspx" title="Khách tham quan" description=""/>
+      <siteMapNode url="Building/EquipmentList.aspx" title="Tài liệu liên quan" description=""/>
+    </siteMapNode>
+    <siteMapNode title="Thuê tòa nhà"   description="" roles="Administrators" >
+      <siteMapNode url="Flat/ListFlat4.aspx" title="Danh sách Khách hàng" description=""/>
+      <siteMapNode url="Flat/ListFlat5.aspx" title="Khai báo hợp đồng" description=""/>
+      <siteMapNode url="Flat/ListFlat6.aspx" title="Thông tin sử dụng" description=""/>
+    </siteMapNode>
+
+    <siteMapNode title="Báo cáo (kỹ thuật)"   description="" roles="Administrators" >
+      <siteMapNode url="Flat/ListFlat7.aspx" title="Danh Sách Tòa nhà" description=""/>
+      <siteMapNode url="Flat/ListFlat8.aspx" title="Phòng hành chính" description=""/>
+      <siteMapNode url="Flat/ListFlat9.aspx" title="Phòng Kỹ Thuật" description=""/>
+    </siteMapNode>
+
+    <siteMapNode title="Báo cáo (kế toán)"   description="" roles="Administrators" >
+      <siteMapNode url="Flat/ListFlat10.aspx" title="Danh Sách Tòa nhà" description=""/>
+      <siteMapNode url="Flat/ListFlat11.aspx" title="Phòng hành chính" description=""/>
+      <siteMapNode url="Flat/ListFlat12.aspx" title="Phòng Kỹ Thuật" description=""/>
+    </siteMapNode>
+       
+    <siteMapNode title="Khách hàng"   description="" roles="Administrators" >
+      <siteMapNode url="MasterImport/FlatImport.aspx" title="Danh sách Khách Hàng" description=""/>
+      <siteMapNode url="MasterImport/WaterIndexImport.aspx" title="Thông tin liên quan" description=""/>
+      <siteMapNode url="MasterImport/PrepaidImport1.aspx" title="Phòng hành chính" description=""/>
+      <siteMapNode url="MasterImport/PrepaidImport2.aspx" title="Phòng kỹ thuật" description=""/>
+      <siteMapNode url="MasterImport/PrepaidImport3.aspx" title="Phòng kế toán" description=""/>
+    </siteMapNode>
+
+    <siteMapNode title="Báo cáo (Khách hàng)"   description="" roles="Administrators" >
+      <siteMapNode url="MasterImport/FlatImport4.aspx" title="Danh sách Khách Hàng" description=""/>
+      <siteMapNode url="MasterImport/WaterIndexImport5.aspx" title="Thông tin liên quan" description=""/>
+      <siteMapNode url="MasterImport/PrepaidImport6.aspx" title="Phòng hành chính" description=""/>
+      <siteMapNode url="MasterImport/PrepaidImport7.aspx" title="Phòng kỹ thuật" description=""/>
+      <siteMapNode url="MasterImport/PrepaidImport8.aspx" title="Phòng kế toán" description=""/>
+    </siteMapNode>
+
+    <siteMapNode title="Trả Phí"   description="" roles="Administrators" >
+      <siteMapNode url="Report/PaymentFeeCal.aspx" title="Quyết Sổ" description=""/>
+      <siteMapNode url="Flat/ListPaymentFlat.aspx" title="Danh Sách Nợ" description=""/>
+    </siteMapNode>
+    <siteMapNode title="Báo Cáo"   description="" roles="Administrators" >
+      <siteMapNode url="Report/ListFlatReport.aspx" title="Thu Phí Tháng" description=""/>
+      <siteMapNode url="Report/ListFileReport.aspx" title="DS File đã xuất" description=""/>
+    </siteMapNode>
+-->
+    <siteMapNode title="Quản Lý Người Dùng"   description="" roles="Administrators" >
+      <siteMapNode url="User/ListUser.aspx" title="DS Người Dùng" description=""/>
+    </siteMapNode>
+
+  </siteMapNode>
+</siteMap>

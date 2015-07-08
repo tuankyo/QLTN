@@ -1,0 +1,113 @@
+
+IMG {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+
+.nav {
+	POSITION:relative; WIDTH:944px; BACKGROUND:url(../images/bgmenu.png); HEIGHT:34px;margin:0px 0px 0px 20px;
+} 
+#menu {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; HEIGHT: 34px; PADDING-TOP: 0px
+}
+#menu LI {
+	POSITION: relative; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 2px; DISPLAY: inline; BACKGROUND: url(../menu/bgd_lineNav.png) no-repeat 100% 0px; FLOAT: left; COLOR: #fff; PADDING-TOP: 0px;
+}
+#last {
+	BACKGROUND: none transparent scroll repeat 0% 0% !important;
+}
+
+#menu LI A {
+	text-decoration:none;
+	font:bold 11px Arial,Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	PADDING-BOTTOM: 5px; LINE-HEIGHT: 23px; TEXT-TRANSFORM: uppercase; PADDING-LEFT: 30px; PADDING-RIGHT: 30px; DISPLAY: block; FLOAT: left; COLOR: #fff;  PADDING-TOP: 5px
+}
+/* margin dieu chinh vi tri popup submenu  #menu LI UL  */
+#menu LI UL {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: #dcdcdc 0px solid; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px 0px; PADDING-LEFT: 0px; WIDTH: 215px; PADDING-RIGHT: 0px; BACKGROUND: #eaebeb; BORDER-TOP: medium none; BORDER-RIGHT: #dcdcdc 0px solid; PADDING-TOP: 0px
+}
+#menu LI .active {
+	BACKGROUND-COLOR: #eaebeb; COLOR: #000
+}
+#menu LI UL LI {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 215px; PADDING-RIGHT: 0px; DISPLAY: inline; BACKGROUND: none transparent scroll repeat 0% 0%; HEIGHT: auto; PADDING-TOP: 0px
+}
+/* mau nen sub menu*/
+#menu LI UL LI A {
+	font:bold 11px Arial, Helvetica, sans-serif;
+	BORDER-BOTTOM: #4ca3f1 1px solid; TEXT-ALIGN: left; PADDING-BOTTOM:7px; TEXT-TRANSFORM: none; MARGIN: 0px; PADDING-LEFT: 10px; WIDTH: 201px; PADDING-RIGHT: 10px; DISPLAY: block;
+	BACKGROUND-COLOR: #0271c0;/* BACKGROUND: none transparent scroll repeat 0% 0%*/; FLOAT: none; HEIGHT: auto; COLOR: #ffffff; BORDER-TOP: medium none; TEXT-DECORATION: none; PADDING-TOP: 7px
+}
+#menu UL UL LI {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 215px; PADDING-RIGHT: 0px; DISPLAY: inline; BACKGROUND: none transparent scroll repeat 0% 0%; HEIGHT: auto; PADDING-TOP: 0px
+}
+#menu LI A IMG {
+	Z-INDEX: 999; POSITION: absolute; TOP: 50%; RIGHT: 4px
+}
+#menu LI.sub {
+	
+}
+#menu TABLE {
+	Z-INDEX: 999; POSITION: absolute; BORDER-COLLAPSE: collapse; FONT-SIZE: 1em; TOP: 0px; LEFT: 0px
+}
+#menu LI UL UL {
+	padding: 0px;
+    border-bottom: medium none;
+    margin: 0px;
+    WIDTH: 215px;     BACKGROUND: #ff0000;     BORDER-TOP: #dcdcdc 1px solid;
+}
+#menu UL UL LI A {
+	BORDER-BOTTOM: #dcdcdc 1px solid; TEXT-ALIGN: left; PADDING-BOTTOM: 7px; MARGIN: 0px; PADDING-LEFT: 4px; WIDTH: 201px; PADDING-RIGHT: 10px; DISPLAY: block; BACKGROUND-COLOR: #ffffff; /* mau nen submenu cap 3 BACKGROUND: none transparent scroll repeat 0% 0% */FLOAT: none; HEIGHT: auto; COLOR: #292929;BORDER-TOP: medium none; TEXT-DECORATION: none !important; PADDING-TOP: 7px
+}
+#menu LI A IMG {
+	Z-INDEX: 999; POSITION: absolute; TOP: 40%; RIGHT: 4px
+}
+* HTML #menu :hover {
+	BACKGROUND: #eaebeb; COLOR: #000; TEXT-DECORATION: none
+}
+* HTML #menu UL :hover {
+	BACKGROUND: #fff; COLOR: #000; TEXT-DECORATION: none
+}
+* + HTML #menu :hover {
+	BACKGROUND: url(../menu/bgd_lineNav.png) #eaebeb repeat-x 0px 100%; color:#ec1d15; TEXT-DECORATION: none
+}
+#menu :hover > A {
+	BACKGROUND:url(../menu/bg_over.png);color:#ffffff; TEXT-DECORATION: none;
+	min-height:24px;
+	
+}
+#menu UL :hover > A {
+	BACKGROUND: #56b1e7;/* mau nen khi over sub menu */ COLOR: #ffffff; TEXT-DECORATION: none;
+	padding:6px 10px 0px 10px !important;
+}
+#menu UL {
+	Z-INDEX: 999; POSITION: absolute; WIDTH: 215px; LEFT: -9999px
+}
+#menu :hover UL UL {
+	Z-INDEX: 999; POSITION: absolute; WIDTH: 215px; LEFT: -9999px
+}
+#menu :hover UL :hover UL UL {
+	Z-INDEX: 999; POSITION: absolute; WIDTH: 215px; LEFT: -9999px
+}
+#menu :hover UL :hover UL UL.left {
+	Z-INDEX: 999; POSITION: absolute; WIDTH: 215px; LEFT: -9999px
+}
+#menu :hover UL.left1 {
+	Z-INDEX: 999; POSITION: absolute; WIDTH: 215px; LEFT: -9999px
+}
+#menu :hover UL :hover UL.left1 {
+	POSITION: absolute; TOP: 0px; LEFT: -217px
+}
+#menu :hover UL {
+	BACKGROUND: url(../menu/transparent.gif); TOP: 34px; LEFT: -1px /* khoang cach tu tren menu xuong submenu*/
+}
+#menu :hover UL :hover UL {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; TOP: -1px; PADDING-TOP: 0px; LEFT: 215px
+}
+#menu :hover UL :hover UL :hover UL {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; TOP: -1px; PADDING-TOP: 0px; LEFT: 215px
+}
+
+#menu #active > A{
+	BACKGROUND:url(../menu/bg_over.png); color:#ffffff; TEXT-DECORATION: none;	
+	min-height:24px;
+}
