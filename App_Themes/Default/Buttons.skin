@@ -1,0 +1,176 @@
+﻿<%--
+Default skin template. The following skins are provided as examples only.
+
+1. Named control skin. The SkinId should be uniquely defined because
+   duplicate SkinId's per control type are not allowed in the same theme.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Default skin. The SkinId is not defined. Only one default 
+   control skin per control type is allowed in the same theme.
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+--%>
+
+<asp:ImageButton SkinID="ibtnAdd" runat="server"    
+    ImageUrl="~/App_Themes/Default/images/btns/btAdd.gif"
+    onmouseover="this.src='./App_Themes/Default/images/btns/btAddOver.gif'"
+    onmouseout="this.src='./App_Themes/Default/images/btns/btAdd.gif'" ToolTip="Thêm" />
+    
+<asp:ImageButton SkinID="ibtnEdit" runat="server"    
+    ImageUrl="~/App_Themes/Default/images/btns/btEdit.gif"
+    onmouseover="this.src='./App_Themes/Default/images/btns/btEditOver.gif'"
+    onmouseout="this.src='./App_Themes/Default/images/btns/btEdit.gif'" ToolTip="Trang chi tiết"  />
+    
+<asp:ImageButton SkinID="ibtnDel" runat="server"    
+    ImageUrl="~/App_Themes/Default/images/btns/btDelete.gif"
+    onmouseover="if(!this.disable){this.src='./App_Themes/Default/images/btns/btDeleteOver.gif'}"
+    onmouseout="if(!this.disable){this.src='./App_Themes/Default/images/btns/btDelete.gif'}" ToolTip="Xóa" />    
+<asp:ImageButton SkinID="ibtnNonFillter" runat="server"    
+    ImageUrl="~/App_Themes/Default/Images/btns/btNonFillter.gif"
+    onmouseover="this.src='./App_Themes/Default/Images/btns/btNonFillterOver.gif'"
+    onmouseout="this.src='./App_Themes/Default/Images/btns/btNonFillter.gif'" ToolTip="Bỏ lọc" />
+    
+<asp:ImageButton SkinID="ibtnCalendar" runat="server"    
+    ImageUrl="~/App_Themes/Default/Images/btns/btCalendar.gif"
+    onmouseover="this.src='./App_Themes/Default/Images/btns/btCalendar.gif'"
+    onmouseout="this.src='./App_Themes/Default/Images/btns/btCalendar.gif'"  />
+    
+<asp:ImageButton SkinID="ibtnImport" runat="server"    
+    ImageUrl="~/App_Themes/Default/Images/btns/btImport.gif"
+    onmouseover="this.src='./App_Themes/Default/Images/btns/btImportOver.gif'"
+    onmouseout="this.src='./App_Themes/Default/Images/btns/btImport.gif'" ToolTip="Nhập khẩu dữ liệu tập tin" />
+    
+<asp:ImageButton SkinID="ibtnPrint" runat="server"    
+    ImageUrl="~/App_Themes/Default/Images/Icons/btPrint.gif"
+    onmouseover="this.src='./App_Themes/Default/Images/Icons/btPrintOver.gif'"
+    onmouseout="this.src='./App_Themes/Default/Images/Icons/btPrint.gif'" ToolTip="Xem trang in" />
+    
+<asp:ImageButton SkinID="ibtnConvertPDF" runat="server"    
+    ImageUrl="~/App_Themes/Default/Images/Icons/btConvertPDF.gif"
+    onmouseover="this.src='./App_Themes/Default/Images/Icons/btConvertPDFOver.gif'"
+    onmouseout="this.src='./App_Themes/Default/Images/Icons/btConvertPDF.gif'" ToolTip="Xuất ra PDF" />
+    
+<asp:ImageButton SkinID="ibtExportExcel" runat="server"    
+    ImageUrl="~/App_Themes/Default/Images/Icons/btExportExcel.gif"
+    onmouseover="this.src='./App_Themes/Default/Images/Icons/btExportExcelOver.gif'"
+    onmouseout="this.src='./App_Themes/Default/Images/Icons/btExportExcel.gif'" ToolTip="Xuất ra Excel" />
+    
+<asp:ImageButton SkinID="ibtExportWord" runat="server"    
+    ImageUrl="~/App_Themes/Default/Images/Icons/btExportWord.gif"
+    onmouseover="this.src='./App_Themes/Default/Images/Icons/btExportWordOver.gif'"
+    onmouseout="this.src='./App_Themes/Default/Images/Icons/btExportWord.gif'" ToolTip="Xuất ra Word" />
+    
+<asp:ImageButton SkinID="ibtExcelText" runat="server"    
+    ImageUrl="~/App_Themes/Default/Images/btns/btnXuatExcel.gif"
+    onmouseover="this.src='./App_Themes/Default/Images/btns/btnXuatExcelOver.gif'"
+    onmouseout="this.src='./App_Themes/Default/Images/btns/btnXuatExcel.gif'" ToolTip="Xuất ra Excel"/>
+
+
+<asp:ImageButton SkinID="ibtPDFText" runat="server"    
+    ImageUrl="~/App_Themes/Default/Images/btns/btnXuatPDF.gif"
+    onmouseover="this.src='./App_Themes/Default/Images/btns/btnXuatPDFOver.gif'"
+    onmouseout="this.src='./App_Themes/Default/Images/btns/btnXuatPDF.gif'" ToolTip="Xuất ra PDF"/>
+
+<asp:ImageButton SkinID="ibtScreen" runat="server"    
+    ImageUrl="~/App_Themes/Default/Images/btns/btnInManHinh.gif"
+    onmouseover="this.src='./App_Themes/Default/Images/btns/btnInManHinhOver.gif'"
+    onmouseout="this.src='./App_Themes/Default/Images/btns/btnInManHinh.gif'" ToolTip="Xem trang in/>
+    
+<asp:ImageButton SkinID="ibtSave" runat="server"    
+    ImageUrl="~/App_Themes/Default/Images/btns/btnLuu.gif"
+    onmouseover="this.src='./App_Themes/Default/Images/btns/btnLuuOver.gif'"
+    onmouseout="this.src='./App_Themes/Default/Images/btns/btnLuu.gif'" ToolTip="Lưu"/>
+    
+    <asp:ImageButton SkinID="ibtIconSave" runat="server"    
+    ImageUrl="~/App_Themes/Default/Images/btns/btSave.gif"
+    onmouseover="this.src='./App_Themes/Default/Images/btns/btSaveOver.gif'"
+    onmouseout="this.src='./App_Themes/Default/Images/btns/btSave.gif'" ToolTip="Lưu"/>
+    
+<asp:ImageButton SkinID="ibtBoQua" runat="server"    
+    ImageUrl="~/App_Themes/Default/Images/btns/btnBoqua.gif"
+    onmouseover="this.src='./App_Themes/Default/Images/btns/btnBoquaOver.gif'"
+    onmouseout="this.src='./App_Themes/Default/Images/btns/btnBoqua.gif'" ToolTip="Bỏ qua"/>
+    
+<asp:ImageButton SkinID="ibtDongY" runat="server"    
+    ImageUrl="~/App_Themes/Default/Images/btns/btnDongY.gif"
+    onmouseover="this.src='./App_Themes/Default/Images/btns/btnDongYOver.gif'"
+    onmouseout="this.src='./App_Themes/Default/Images/btns/btnDongY.gif'" ToolTip="Đồng ý"/>
+    
+<asp:ImageButton SkinID="ibtDocFile" runat="server"    
+    ImageUrl="~/App_Themes/Default/Images/btns/btnDocFile.gif"
+    onmouseover="this.src='./App_Themes/Default/Images/btns/btnDocFileOver.gif'"
+    onmouseout="this.src='./App_Themes/Default/Images/btns/btnDocFile.gif'" ToolTip="Đọc dữ liệu tập tin" />
+    
+    <asp:ImageButton  SkinID="ibtnFirstPage" runat="server" 
+    ImageUrl="~/App_Themes/Default/Images/btns/btFirst.gif"
+    onmouseover="this.src='./App_Themes/Default/Images/btns/btFirst.gif'"
+    onmouseout="this.src='./App_Themes/Default/Images/btns/btFirst.gif'" ToolTip="Trang đầu" />
+    
+<asp:ImageButton SkinID="ibtLastPage" runat="server" 
+    ImageUrl="~/App_Themes/Default/Images/btns/btLast.gif"
+    onmouseover="this.src='./App_Themes/Default/Images/btns/btLast.gif'"
+    onmouseout="this.src='./App_Themes/Default/Images/btns/btLast.gif'" ToolTip="Trang cuối" CssClass="grdibtIndex"/>
+    
+<asp:ImageButton SkinID="ibtnPreviousPage" runat="server" 
+    ImageUrl="~/App_Themes/Default/Images/btns/btPrevious.gif"
+    onmouseover="this.src='./App_Themes/Default/Images/btns/btPrevious.gif'"
+    onmouseout="this.src='./App_Themes/Default/Images/btns/btPrevious.gif'" ToolTip="Trang trước" CssClass="grdibtIndex"/>
+    
+<asp:ImageButton SkinID="ibtnNextPage" runat="server" 
+    ImageUrl="~/App_Themes/Default/Images/btns/btNext.gif"
+    onmouseover="this.src='./App_Themes/Default/Images/btns/btNext.gif'"
+    onmouseout="this.src='./App_Themes/Default/Images/btns/btNext.gif'" ToolTip="Trang kế tiếp" CssClass="grdibtIndex"/>    
+    
+<asp:ImageButton SkinID="ibtCapNhat" runat="server" 
+    ImageUrl="~/App_Themes/Default/Images/btns/btnCapNhat.gif"
+    onmouseover="this.src='./App_Themes/Default/Images/btns/btnCapNhatOver.gif'"
+    onmouseout="this.src='./App_Themes/Default/Images/btns/btnCapNhat.gif'" ToolTip="Cập nhật" CssClass="grdibtIndex"/>       
+    
+<asp:ImageButton SkinID="ibtTroVe" runat="server" 
+    ImageUrl="~/App_Themes/Default/Images/btns/btnTroVe.gif"
+    onmouseover="this.src='./App_Themes/Default/Images/btns/btnTroVeOver.gif'"
+    onmouseout="this.src='./App_Themes/Default/Images/btns/btnTroVe.gif'" ToolTip="Trở về"/>       
+    
+<asp:ImageButton SkinID="ibtGuiThongTin" runat="server" 
+    ImageUrl="~/App_Themes/Default/Images/btns/btnGuiThongTin.gif"
+    onmouseover="this.src='./App_Themes/Default/Images/btns/btnGuiThongTinOver.gif'"
+    onmouseout="this.src='./App_Themes/Default/Images/btns/btnGuiThongTin.gif'" />       
+    
+<asp:ImageButton SkinID="ibtXemChiTiet" runat="server" 
+    ImageUrl="~/App_Themes/Default/Images/btns/btnXemChiTiet.gif"
+    onmouseover="this.src='./App_Themes/Default/Images/btns/btnXemChiTietOver.gif'"
+    onmouseout="this.src='./App_Themes/Default/Images/btns/btnXemChiTiet.gif'" />      
+    
+<asp:Image SkinID="imgCalendar" runat="server"    
+    ImageUrl="~/App_Themes/Default/Images/btns/btCalendar.gif"
+    onmouseover="this.src='./App_Themes/Default/Images/btns/btCalendar.gif'"
+    onmouseout="this.src='./App_Themes/Default/Images/btns/btCalendar.gif'"  />
+    
+<asp:ImageButton SkinID="ibtnSubmit" runat="server"    
+    ImageUrl="~/App_Themes/Default/Images/btns/btnSubmit1.gif"
+    onmouseover="this.src='./App_Themes/Default/Images/btns/btnSubmitOver1.gif'"
+    onmouseout="this.src='./App_Themes/Default/Images/btns/btnSubmit1.gif'"  />
+    
+    <asp:ImageButton SkinID="ibtnVerify" runat="server"    
+    ImageUrl="~/App_Themes/Default/Images/btns/btnDuyet1.gif"
+    onmouseover="this.src='./App_Themes/Default/Images/btns/btnDuyetOver1.gif'"
+    onmouseout="this.src='./App_Themes/Default/Images/btns/btnDuyet1.gif'"  />
+    
+    <asp:ImageButton SkinID="ibtnUnVerify" runat="server"    
+    ImageUrl="~/App_Themes/Default/Images/btns/btnBoDuyet1.gif"
+    onmouseover="this.src='./App_Themes/Default/Images/btns/btnBoDuyetOver1.gif'"
+    onmouseout="this.src='./App_Themes/Default/Images/btns/btnBoDuyet1.gif'"  />
+    
+    <asp:ImageButton SkinID="ibtnXoa" runat="server"    
+    ImageUrl="~/App_Themes/Default/Images/btns/btnXoa3.gif"
+    onmouseover="this.src='./App_Themes/Default/Images/btns/btnXoaOver3.gif'"
+    onmouseout="this.src='./App_Themes/Default/Images/btns/btnXoa3.gif'"  />
+    
+     <asp:ImageButton SkinID="ibtnTaoMoi" runat="server"    
+    ImageUrl="~/App_Themes/Default/Images/btns/btnTaoMoi.gif"
+    onmouseover="this.src='./App_Themes/Default/Images/btns/btnTaoMoiOver.gif'"
+    onmouseout="this.src='./App_Themes/Default/Images/btns/btnTaoMoi.gif'"  />
+    

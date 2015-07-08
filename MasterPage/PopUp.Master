@@ -1,0 +1,26 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PopUp.master.cs" Inherits="Man.MasterPage.PopUp" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxToolkit" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+
+    <script language="JavaScript" src="../../js/common.js" type="text/javascript"></script>
+    <script language="javascript" type="text/javascript" src="/js/tooltip.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="mktipmsg">
+    </div>
+    <ajaxToolkit:ToolkitScriptManager ID="smPopUp" runat="server" EnableScriptGlobalization="true"
+        AsyncPostBackTimeout="1000">
+    </ajaxToolkit:ToolkitScriptManager>
+    <asp:ContentPlaceHolder ID="ContentPopUp" runat="server">
+    </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

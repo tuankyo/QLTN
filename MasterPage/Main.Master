@@ -1,0 +1,153 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="Man.MasterPage.Main" %>
+
+<%@ Register Assembly="skmMenu" Namespace="skmMenu" TagPrefix="cc1" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+
+    <script language="javascript" type="text/javascript" src="/js/common.js"></script>
+
+    <script language="javascript" type="text/javascript" src="/js/tooltip.js"></script>
+
+    <link href="/App_Themes/Default/admin_style.css" type="text/css" rel="stylesheet" />
+    <link href="/App_Themes/Default/css/general.css" type="text/css" rel="stylesheet" />
+    <link href="/App_Themes/Default/css/menu_style.css" type="text/css" rel="stylesheet" />
+    <link href="/App_Themes/Default/css/style.css" type="text/css" rel="stylesheet" />
+    <link href="/App_Themes/Default/css/style_login.css" type="text/css" rel="stylesheet" />
+    <link href="/App_Themes/Default/default.css" type="text/css" rel="stylesheet" />
+    <link href="/App_Themes/Default/skmMenu.css" type="text/css" rel="stylesheet" />
+    <link href="/App_Themes/Default/Style.css" type="text/css" rel="stylesheet" />
+    <link href="/App_Themes/Default/style_js/thickbox.css" type="text/css" rel="stylesheet" />
+    <link href="/App_Themes/Default/style_login.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePageMethods="true">
+    </asp:ScriptManager>
+    <!--pages -->
+    <div class="container_page">
+        <!-- row top -->
+        <div class="row_toppages">
+            <div class="width_toppages">
+                <div class="links_topmenu_text">
+                    <ul>
+                        <asp:Label ID="lblCompanyName" runat="server" Text="aaa" ForeColor="White" CssClass="lbl_PcfName"></asp:Label>
+                        <li>
+                            <img src="/App_Themes/Default/images/user.png" align="absmiddle"></li>
+                        <li>Chào:
+                            <asp:Literal ID="ltrFullName" runat="server"></asp:Literal></li>
+                        <li>
+                            <asp:LinkButton ID="lnkInbox" runat="server" PostBackUrl="~/Mail/ListMail.aspx" />
+                        </li>
+                        <li>
+                            <img src="/App_Themes/Default/images/dot.gif" width="5" height="5"></li>
+                        <li>
+                            <asp:LoginStatus ID="LoginStatus1" runat="server" LoginText="Truy Cập" LogoutText="Thoát Khỏi Hệ Thống"
+                                LogoutPageUrl="/Default.aspx" LogoutAction="Redirect" />
+                            |
+                            <asp:LinkButton ID="lnkChangePass" runat="server" Text="Đổi Mật Khẩu"></asp:LinkButton>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- end row top -->
+        <!-- row banner -->
+        <div class="row_bannerpages">
+            <div class="width_bannerpages">
+                <div class="logo_banner">
+                    <img src="/App_Themes/Default/images/OMS.png" height="150px" style="margin: -10px 0px 0px -80px" /></div>
+                <div class="name_banner">
+                    <img src="/App_Themes/Default/images/PMQLTT_02.png" width="600px" /></div>
+            </div>
+            <!-- menu pages -->
+            <div class="menu_page">
+                <cc1:Menu ID="mnuMain" runat="server" Layout="Horizontal" MenuFadeDelay="1" Height="28px"
+                    ItemPadding="0" ItemSpacing="0" SubMenuCssClass="subMenu" HighlightTopMenu="True"
+                    CssClass="mnu">
+                </cc1:Menu>
+            </div>
+            <!-- end menu pages -->
+        </div>
+        <!-- end row banner -->
+        <!-- row midpages -->
+        <div class="row_midpages">
+            <div id="did_body_main">
+                <asp:ContentPlaceHolder ID="MainPhd" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <div id="did_footer">
+            <div id="div1" style="height: 30px;">
+                <asp:ContentPlaceHolder ID="head" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div id="divshowMeg" style="height: 30px;">
+                <asp:ContentPlaceHolder ID="showMsg" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div id="copyright">
+            </div>
+            <div id="mktipmsg">
+            </div>
+        </div>
+        <!-- end row midpages -->
+        <div class="clear_both" style="height: 50px;">
+        </div>
+    </div>
+    <!--end page top -->
+    <asp:UpdateProgress ID="UpdateProgressLoading" runat="server" DisplayAfter="40" EnableViewState="true">
+        <ProgressTemplate>
+            <div id="popupMax" visible="true" class="MypopupMask" style="text-align: center;
+                height: 0px; z-index: 210000;">
+                <table width="100%" style="height: 70%; vertical-align: middle;">
+                    <tr>
+                        <td align="center" valign="middle">
+                            <center>
+                                <asp:Image ID="imgProgress" runat="server" ImageUrl="/App_Themes/Default/images/Loading.gif"
+                                    CssClass="z-index: 2100;" />
+                            </center>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </ProgressTemplate>
+    </asp:UpdateProgress>
+    </form>
+    <!-- row footer -->
+    <div class="row_footer">
+        <div class="width_footerpages">
+        </div>
+    </div>
+
+    <script type="text/javascript">
+
+        Sys.WebForms.PageRequestManager.getInstance().add_pageLoaded(pageLoaded);
+        ///Ajax Client pageLoaded
+        function pageLoaded(sender, args) {
+            //GetPageSize();  
+            setTimeout(GetPageSize, 0);
+        }
+        function GetPageSize() {
+            //Set Update Progress Size
+            var o2 = document.getElementById("popupMax");
+            o2.style.height = document.getElementById("body").offsetHeight;
+            o2.style.width = document.getElementById("body").offsetWidth;
+        }
+        function EnterToTab(e) {
+            e = e ? e : window.event;
+            document.body.onkeydown = function() {
+                if (e.keyCode == 13) {
+                    if (e.srcElement.type != "submit")
+                        e.keyCode = 9;
+                }
+            }
+        } 
+
+    </script>
+
+    <!-- end row footer -->
+</body>
+</html>

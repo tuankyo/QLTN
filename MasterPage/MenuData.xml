@@ -1,0 +1,749 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu>
+  <menuItem>
+    <text>&lt;div style="width:100%; text-align:center;"  &gt;Thông Tin Tòa Nhà&lt;/div&gt;</text>
+    <cssclass>item1_normal</cssclass>
+    <mouseovercssclass>mouseover1</mouseovercssclass>
+    <roles>Admin,BanQuanLy</roles>
+    <subMenu>
+      <menuItem>
+        <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Thông Tin Tòa Nhà</text>
+        <url>/Building/BuildingList.aspx</url>
+        <cssclass>item_subMenu_normal</cssclass>
+        <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+        <roles>Admin,BanQuanLy</roles>
+      </menuItem>
+      <menuItem>
+        <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Phân nhóm Hồ sơ</text>
+        <url>/Building/Document/BD_DocumentSubject.aspx</url>
+        <cssclass>item_subMenu_normal</cssclass>
+        <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+        <roles>Admin,BanQuanLy</roles>
+      </menuItem>
+      <menuItem>
+        <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Quy trình–biểu mẫu</text>
+        <url>/Building/Document/BD_Document.aspx?DocType=1</url>
+        <cssclass>item_subMenu_normal</cssclass>
+        <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+        <roles>Admin,BanQuanLy</roles>
+      </menuItem>
+      <menuItem>
+        <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Ngân sách</text>
+        <url>/Building/Budget/BD_BudgetSchedule.aspx</url>
+        <cssclass>item_subMenu_normal</cssclass>
+        <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+        <roles>Admin,BanQuanLy</roles>
+      </menuItem>
+      <menuItem>
+        <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Danh mục thu chi</text>
+        <url>/Building/Payment/BD_PaymentType.aspx</url>
+        <cssclass>item_subMenu_normal</cssclass>
+        <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+        <roles>Admin,BanQuanLy</roles>
+      </menuItem>
+    </subMenu>
+
+  </menuItem>
+  <menuItem>
+    <text>&lt;div style="width:100%; text-align:center;"  &gt;Quản lý hoạt động&lt;/div&gt;</text>
+    <cssclass>item1_normal</cssclass>
+    <mouseovercssclass>mouseover1</mouseovercssclass>
+    <roles>Admin,HanhChinh,BanQuanLy</roles>
+    <subMenu>
+      <menuItem>
+        <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Quản lý hồ sơ hành chánh</text>
+        <url>/Building/Document/BD_Document.aspx?DocType=2</url>
+        <cssclass>item_subMenu_normal</cssclass>
+        <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+        <roles>Admin,HanhChinh,BanQuanLy</roles>
+      </menuItem>
+      <menuItem>
+        <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Danh sách khu vực thuê</text>
+        <url>/Building/Room/BD_RoomList.aspx</url>
+        <cssclass>item_subMenu_normal</cssclass>
+        <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+        <roles>Admin,HanhChinh,BanQuanLy</roles>
+      </menuItem>
+
+      <menuItem>
+        <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Quản lý phòng họp</text>
+        <cssclass>item_subMenu_normal01</cssclass>
+        <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+        <roles>Admin,HanhChinh,BanQuanLy</roles>
+        <subMenu>
+          <menuItem>
+            <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Đặt phòng họp</text>
+            <url>/Customer/CustomerList03.aspx</url>
+            <cssclass>item_subMenu_normal</cssclass>
+            <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+            <roles>Admin,HanhChinh,BanQuanLy</roles>
+          </menuItem>
+          <menuItem>
+            <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Danh sách thu phí thuê phòng họp</text>
+            <url>/Building/Room/BD_RoomBookingList.aspx</url>
+            <cssclass>item_subMenu_normal</cssclass>
+            <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+            <roles>Admin,HanhChinh,BanQuanLy</roles>
+          </menuItem>
+        </subMenu>
+      </menuItem>
+      
+      <menuItem>
+        <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Quản lý vật tư – Thiết bị VP</text>
+        <cssclass>item_subMenu_normal01</cssclass>
+        <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+        <roles>Admin,HanhChinh,BanQuanLy</roles>
+        <subMenu>
+          <menuItem>
+            <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Danh sách</text>
+            <url>/Building/Supplies/BD_SuppliesList.aspx?SuppliesType=1</url>
+            <cssclass>item_subMenu_normal</cssclass>
+            <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+            <roles>Admin,HanhChinh,BanQuanLy</roles>
+          </menuItem>
+          <menuItem>
+            <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Phân nhóm</text>
+            <url>/Building/Supplies/BD_SuppliesGroup.aspx?SuppliesType=1</url>
+            <cssclass>item_subMenu_normal</cssclass>
+            <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+            <roles>Admin,HanhChinh,BanQuanLy</roles>
+          </menuItem>
+          <menuItem>
+            <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Xuất Nhập Kho</text>
+            <url>/Building/Supplies/BD_SuppliesList02.aspx?SuppliesType=1</url>
+            <cssclass>item_subMenu_normal</cssclass>
+            <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+            <roles>Admin,HanhChinh,BanQuanLy</roles>
+          </menuItem>
+          <menuItem>
+            <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Tình trạng sử dụng</text>
+            <url>/Building/Supplies/BD_SuppliesList01.aspx?SuppliesType=1</url>
+            <cssclass>item_subMenu_normal</cssclass>
+            <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+            <roles>Admin,HanhChinh,BanQuanLy</roles>
+          </menuItem>
+        </subMenu>
+      </menuItem>
+
+      <menuItem>
+        <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Ca làm việc</text>
+        <url>/Building/WorkingHour/BD_WorkingHourList.aspx</url>
+        <cssclass>item_subMenu_normal</cssclass>
+        <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+        <roles>Admin,HanhChinh,BanQuanLy</roles>
+      </menuItem>
+      <menuItem>
+        <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Khu vực làm việc</text>
+        <url>/Building/WorkingPlace/BD_WorkingPlaceList.aspx</url>
+        <cssclass>item_subMenu_normal</cssclass>
+        <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+        <roles>Admin,HanhChinh,BanQuanLy</roles>
+      </menuItem>
+      <menuItem>
+        <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Kế hoạch làm việc</text>
+        <cssclass>item_subMenu_normal01</cssclass>
+        <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+        <roles>Admin,HanhChinh,BanQuanLy</roles>
+        <subMenu>
+          <menuItem>
+            <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;BQL</text>
+            <url>/Building/Staff/BD_StaffSchedule.aspx?jobtype=4</url>
+            <cssclass>item_subMenu_normal</cssclass>
+            <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+            <roles>Admin,HanhChinh,BanQuanLy</roles>
+          </menuItem>
+          <menuItem>
+            <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Bảo vệ </text>
+            <url>/Building/Staff/BD_StaffSchedule.aspx?jobtype=1</url>
+            <cssclass>item_subMenu_normal</cssclass>
+            <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+            <roles>Admin,HanhChinh,BanQuanLy</roles>
+          </menuItem>
+          <menuItem>
+            <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Kỹ thuật</text>
+            <url>/Building/Staff/BD_StaffSchedule.aspx?jobtype=3</url>
+            <cssclass>item_subMenu_normal</cssclass>
+            <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+            <roles>Admin,HanhChinh,BanQuanLy</roles>
+          </menuItem>
+          <menuItem>
+            <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Vệ sinh</text>
+            <url>/Building/Staff/BD_StaffSchedule.aspx?jobtype=2</url>
+            <cssclass>item_subMenu_normal</cssclass>
+            <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+            <roles>Admin,HanhChinh,BanQuanLy</roles>
+          </menuItem>
+        </subMenu>
+      </menuItem>
+      <menuItem>
+        <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Làm việc thực tế</text>
+        <cssclass>item_subMenu_normal01</cssclass>
+        <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+        <roles>Admin,HanhChinh,BanQuanLy</roles>
+        <subMenu>
+          <menuItem>
+            <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;BQL</text>
+            <url>/Building/Staff/BD_StaffWorked.aspx?jobtype=4</url>
+            <cssclass>item_subMenu_normal</cssclass>
+            <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+            <roles>Admin,HanhChinh,BanQuanLy</roles>
+          </menuItem>
+          <menuItem>
+            <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Bảo vệ </text>
+            <url>/Building/Staff/BD_StaffWorked.aspx?jobtype=1</url>
+            <cssclass>item_subMenu_normal</cssclass>
+            <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+            <roles>Admin,HanhChinh,BanQuanLy</roles>
+          </menuItem>
+          <menuItem>
+            <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Kỹ thuật</text>
+            <url>/Building/Staff/BD_StaffWorked.aspx?jobtype=3</url>
+            <cssclass>item_subMenu_normal</cssclass>
+            <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+            <roles>Admin,HanhChinh,BanQuanLy</roles>
+          </menuItem>
+          <menuItem>
+            <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Vệ sinh</text>
+            <url>/Building/Staff/BD_StaffWorked.aspx?jobtype=2</url>
+            <cssclass>item_subMenu_normal</cssclass>
+            <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+            <roles>Admin,HanhChinh,BanQuanLy</roles>
+          </menuItem>
+        </subMenu>
+      </menuItem>
+
+      <menuItem>
+        <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Làm việc ngoài giờ</text>
+        <url>/Building/Room/BD_RoomList02.aspx</url>
+        <cssclass>item_subMenu_normal</cssclass>
+        <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+        <roles>Admin,HanhChinh,BanQuanLy</roles>
+      </menuItem>
+
+      <menuItem>
+        <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Danh sách nhân viên tòa nhà</text>
+        <cssclass>item_subMenu_normal01</cssclass>
+        <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+        <roles>Admin,HanhChinh,BanQuanLy</roles>
+        <subMenu>
+          <menuItem>
+            <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Nhân viên BQL</text>
+            <url>/Building/Staff/BD_StaffList.aspx?JobType=4</url>
+            <cssclass>item_subMenu_normal</cssclass>
+            <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+            <roles>Admin,HanhChinh,BanQuanLy</roles>
+          </menuItem>
+          <menuItem>
+            <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Nhân viên bảo vệ</text>
+            <url>/Building/Staff/BD_StaffList.aspx?JobType=1</url>
+            <cssclass>item_subMenu_normal</cssclass>
+            <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+            <roles>Admin,HanhChinh,BanQuanLy</roles>
+          </menuItem>
+          <menuItem>
+            <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Nhân viên kỹ thuật</text>
+            <url>/Building/Staff/BD_StaffList.aspx?JobType=3</url>
+            <cssclass>item_subMenu_normal</cssclass>
+            <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+            <roles>Admin,HanhChinh,BanQuanLy</roles>
+          </menuItem>
+          <menuItem>
+            <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Nhân viên vệ sinh</text>
+            <url>/Building/Staff/BD_StaffList.aspx?JobType=2</url>
+            <cssclass>item_subMenu_normal</cssclass>
+            <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+            <roles>Admin,HanhChinh,BanQuanLy</roles>
+          </menuItem>
+        </subMenu>
+
+      </menuItem>
+
+      <menuItem>
+        <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Quản lý khách hàng</text>
+        <url>/Customer/CustomerList.aspx</url>
+        <cssclass>item_subMenu_normal</cssclass>
+        <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+        <roles>Admin,HanhChinh,BanQuanLy</roles>
+      </menuItem>
+      <menuItem>
+        <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Nhà cung cấp dịch vụ</text>
+        <url>/Building/Provider/BD_ProviderList.aspx?dept=2</url>
+        <cssclass>item_subMenu_normal</cssclass>
+        <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+        <roles>Admin,HanhChinh,BanQuanLy</roles>
+      </menuItem>
+      <menuItem>
+        <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Quản lý khách tham quan</text>
+        <url>/Building/Visitor/BD_VisitorList.aspx</url>
+        <cssclass>item_subMenu_normal</cssclass>
+        <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+        <roles>Admin,HanhChinh,BanQuanLy</roles>
+      </menuItem>
+    </subMenu>
+  </menuItem>
+  <menuItem>
+    <text>&lt;div style="width:100%; text-align:center;"  &gt;Quản lý tài chính&lt;/div&gt;</text>
+    <url></url>
+    <cssclass>item1_normal</cssclass>
+    <mouseovercssclass>mouseover1</mouseovercssclass>
+    <roles>Admin,KeToan,BanQuanLy</roles>
+    <subMenu>
+      <menuItem>
+        <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Hồ sơ liên quan</text>
+        <url>/Building/Document/BD_Document.aspx?DocType=4</url>
+        <cssclass>item_subMenu_normal</cssclass>
+        <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+        <roles>Admin,KeToan,BanQuanLy</roles>
+      </menuItem>
+
+      <menuItem>
+        <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Quản lý vật tư tiêu hao</text>
+        <cssclass>item_subMenu_normal01</cssclass>
+        <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+        <roles>Admin,KeToan,BanQuanLy</roles>
+        <subMenu>
+          <menuItem>
+            <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Danh sách</text>
+            <url>/Building/Supplies/BD_SuppliesList.aspx?SuppliesType=3</url>
+            <cssclass>item_subMenu_normal</cssclass>
+            <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+            <roles>Admin,KeToan,BanQuanLy</roles>
+          </menuItem>
+          <menuItem>
+            <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Phân nhóm</text>
+            <url>/Building/Supplies/BD_SuppliesGroup.aspx?SuppliesType=3</url>
+            <cssclass>item_subMenu_normal</cssclass>
+            <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+            <roles>Admin,KeToan,BanQuanLy</roles>
+          </menuItem>
+          <menuItem>
+            <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Xuất Nhập Kho</text>
+            <url>/Building/Supplies/BD_SuppliesList02.aspx?SuppliesType=3</url>
+            <cssclass>item_subMenu_normal</cssclass>
+            <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+            <roles>Admin,KeToan,BanQuanLy</roles>
+          </menuItem>
+          <menuItem>
+            <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Tình trạng sử dụng</text>
+            <url>/Building/Supplies/BD_SuppliesList01.aspx?SuppliesType=3</url>
+            <cssclass>item_subMenu_normal</cssclass>
+            <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+            <roles>Admin,KeToan,BanQuanLy</roles>
+          </menuItem>
+        </subMenu>
+      </menuItem>
+
+      <menuItem>
+        <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Biểu phí </text>
+        <cssclass>item_subMenu_normal01</cssclass>
+        <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+        <roles>Admin,KeToan,BanQuanLy</roles>
+        <subMenu>
+          <menuItem>
+            <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Điện </text>
+            <url>/Building/TarrifsElecWater/BD_TarrifsElecWaterList.aspx?type=1</url>
+            <cssclass>item_subMenu_normal</cssclass>
+            <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+            <roles>Admin,KeToan,BanQuanLy</roles>
+          </menuItem>
+          <menuItem>
+            <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Nước</text>
+            <url>/Building/TarrifsElecWater/BD_TarrifsElecWaterList.aspx?type=2</url>
+            <cssclass>item_subMenu_normal</cssclass>
+            <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+            <roles>Admin,KeToan,BanQuanLy</roles>
+          </menuItem>
+          <menuItem>
+            <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Gửi xe tháng</text>
+            <url>/Building/TariffsPacking/BD_TariffsPackingList.aspx</url>
+            <cssclass>item_subMenu_normal</cssclass>
+            <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+            <roles>Admin,KeToan,BanQuanLy</roles>
+          </menuItem>
+        </subMenu>
+      </menuItem>
+
+      <menuItem>
+        <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Quản lý hợp đồng</text>
+        <url>/Customer/CustomerList01.aspx</url>
+        <cssclass>item_subMenu_normal</cssclass>
+        <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+        <roles>Admin,KeToan,BanQuanLy</roles>
+      </menuItem>
+      <menuItem>
+        <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Quản lý vé gửi xe lượt</text>
+        <url>/Building/TicketStubs/BD_TicketStubsList.aspx  </url>
+        <cssclass>item_subMenu_normal</cssclass>
+        <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+        <roles>Admin,KeToan,BanQuanLy</roles>
+      </menuItem>
+      <menuItem>
+        <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Quyết sổ tháng</text>
+        <url>/Customer/PaymentFeeCal.aspx</url>
+        <cssclass>item_subMenu_normal</cssclass>
+        <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+        <roles>Admin,KeToan,BanQuanLy</roles>
+      </menuItem>
+
+      <menuItem>
+        <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Chi tiết hóa đơn</text>
+        <url>/Customer/CustomerList02.aspx</url>
+        <cssclass>item_subMenu_normal</cssclass>
+        <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+        <roles>Admin,KeToan,BanQuanLy</roles>
+      </menuItem>
+      <menuItem>
+        <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Quản lý thu chi</text>
+        <url>/Customer/PaymentList.aspx</url>
+        <cssclass>item_subMenu_normal</cssclass>
+        <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+        <roles>Admin,KeToan,BanQuanLy</roles>
+      </menuItem>
+    </subMenu>
+  </menuItem>
+  <menuItem>
+    <text>&lt;div style="width:100%; text-align:center;"  &gt;Quản lý kỹ thuật&lt;/div&gt;</text>
+    <url></url>
+    <cssclass>item1_normal</cssclass>
+    <mouseovercssclass>mouseover1</mouseovercssclass>
+    <roles>Admin,KyThuat,BanQuanLy</roles>
+    <subMenu>
+      <menuItem>
+        <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Hồ sơ kỹ thuật</text>
+        <url>/Building/Document/BD_Document.aspx?DocType=3</url>
+        <cssclass>item_subMenu_normal</cssclass>
+        <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+        <roles>Admin,KyThuat,BanQuanLy</roles>
+      </menuItem>
+
+      <menuItem>
+        <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Hệ thống kỹ thuật tòa nhà</text>
+        <cssclass>item_subMenu_normal01</cssclass>
+        <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+        <roles>Admin,KyThuat,BanQuanLy</roles>
+        <subMenu>
+          <menuItem>
+            <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Danh sách</text>
+            <url>/Building/Supplies/BD_SuppliesList.aspx?SuppliesType=6</url>
+            <cssclass>item_subMenu_normal</cssclass>
+            <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+            <roles>Admin,KyThuat,BanQuanLy</roles>
+          </menuItem>
+          <menuItem>
+            <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Phân nhóm</text>
+            <url>/Building/Supplies/BD_SuppliesGroup.aspx?SuppliesType=6</url>
+            <cssclass>item_subMenu_normal</cssclass>
+            <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+            <roles>Admin,KyThuat,BanQuanLy</roles>
+          </menuItem>
+          <menuItem>
+            <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Thống kê số lượng thiết bị</text>
+            <url>/Building/Supplies/BD_SuppliesList02.aspx?SuppliesType=6</url>
+            <cssclass>item_subMenu_normal</cssclass>
+            <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+            <roles>Admin,KyThuat,BanQuanLy</roles>
+          </menuItem>
+          <menuItem>
+            <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Tình trạng sử dụng</text>
+            <url>/Building/Supplies/BD_SuppliesList01.aspx?SuppliesType=6</url>
+            <cssclass>item_subMenu_normal</cssclass>
+            <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+            <roles>Admin,KyThuat,BanQuanLy</roles>
+          </menuItem>
+          <menuItem>
+            <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Lập Kế hoạch bảo trì</text>
+            <url>/Building/Supplies/BD_SuppliesList03.aspx?SuppliesType=6</url>
+            <cssclass>item_subMenu_normal</cssclass>
+            <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+            <roles>Admin,KyThuat,BanQuanLy</roles>
+          </menuItem>
+        </subMenu>
+      </menuItem>
+      <menuItem>
+        <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Nhật ký kỹ thuật</text>
+        <url>/Building/Construction/BD_ConstructionList.aspx</url>
+        <cssclass>item_subMenu_normal</cssclass>
+        <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+        <roles>Admin,KyThuat,BanQuanLy</roles>
+      </menuItem>
+
+
+      <!--      <menuItem>
+        <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Kế hoạch bảo trì</text>
+        <url>/Building/Maintenance/BD_Maintenance.aspx</url>
+        <cssclass>item_subMenu_normal</cssclass>
+        <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+        <roles>Admin,KyThuat,BanQuanLy</roles>
+      </menuItem>
+      -->
+      <menuItem>
+        <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Quản lý sửa chữa-trang trí</text>
+        <cssclass>item_subMenu_normal01</cssclass>
+        <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+        <roles>Admin,KyThuat,BanQuanLy</roles>
+        <subMenu>
+          <menuItem>
+            <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Quản lý thi công nội thất</text>
+            <url>/Building/StatusInfo/BD_StatusInfoList.aspx?type=1</url>
+            <cssclass>item_subMenu_normal</cssclass>
+            <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+            <roles>Admin,KyThuat,BanQuanLy</roles>
+          </menuItem>
+          <menuItem>
+            <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Quản lý thi công sửa chữa</text>
+            <url>/Building/StatusInfo/BD_StatusInfoList.aspx?type=2</url>
+            <cssclass>item_subMenu_normal</cssclass>
+            <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+            <roles>Admin,KyThuat,BanQuanLy</roles>
+          </menuItem>
+        </subMenu>
+      </menuItem>
+
+      <menuItem>
+        <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Chỉ số điện-nước</text>
+        <url>/Building/Room/BD_RoomElecWaterList.aspx</url>
+        <cssclass>item_subMenu_normal</cssclass>
+        <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+        <roles>Admin,KyThuat,BanQuanLy</roles>
+      </menuItem>
+
+      <menuItem>
+        <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Nhà cung cấp dịch vụ</text>
+        <url>/Building/Provider/BD_ProviderList.aspx?dept=3</url>
+        <cssclass>item_subMenu_normal</cssclass>
+        <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+        <roles>Admin,KyThuat,BanQuanLy</roles>
+      </menuItem>
+
+      <menuItem>
+        <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Quản lý vật tư - dụng cụ KT</text>
+        <cssclass>item_subMenu_normal01</cssclass>
+        <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+        <roles>Admin,KyThuat,BanQuanLy</roles>
+        <subMenu>
+          <menuItem>
+            <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Danh sách</text>
+            <url>/Building/Supplies/BD_SuppliesList.aspx?SuppliesType=5</url>
+            <cssclass>item_subMenu_normal</cssclass>
+            <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+            <roles>Admin,KyThuat,BanQuanLy</roles>
+          </menuItem>
+          <menuItem>
+            <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Phân nhóm</text>
+            <url>/Building/Supplies/BD_SuppliesGroup.aspx?SuppliesType=5</url>
+            <cssclass>item_subMenu_normal</cssclass>
+            <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+            <roles>Admin,KyThuat,BanQuanLy</roles>
+          </menuItem>
+          <menuItem>
+            <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Xuất Nhập Kho</text>
+            <url>/Building/Supplies/BD_SuppliesList02.aspx?SuppliesType=5</url>
+            <cssclass>item_subMenu_normal</cssclass>
+            <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+            <roles>Admin,KyThuat,BanQuanLy</roles>
+          </menuItem>
+          <menuItem>
+            <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Tình trạng sử dụng</text>
+            <url>/Building/Supplies/BD_SuppliesList01.aspx?SuppliesType=5</url>
+            <cssclass>item_subMenu_normal</cssclass>
+            <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+            <roles>Admin,KyThuat,BanQuanLy</roles>
+          </menuItem>
+        </subMenu>
+      </menuItem>
+
+    </subMenu>
+  </menuItem>
+  <menuItem>
+    <text>&lt;div style="width:100%; text-align:center;"  &gt;Báo cáo&lt;/div&gt;</text>
+    <url></url>
+    <cssclass>item1_normal</cssclass>
+    <mouseovercssclass>mouseover1</mouseovercssclass>
+    <roles>Admin,BanQuanLy,BaoCao</roles>
+    <subMenu>
+
+
+      <menuItem>
+        <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Tổng hợp báo cáo Kỹ Thuật</text>
+        <cssclass>item_subMenu_normal01</cssclass>
+        <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+        <roles>Admin,KyThuat,BanQuanLy</roles>
+        <subMenu>
+          <menuItem>
+            <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Hệ thống kỹ thuật tòa nhà</text>
+            <cssclass>item_subMenu_normal01</cssclass>
+            <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+            <roles>Admin,BanQuanLy,BaoCao</roles>
+            <subMenu>
+              <menuItem>
+                <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Tổng hợp báo cáo Tình trạng trang thiết bị</text>
+                <url>/Report/SuppliesReport.aspx?type=6</url>
+                <cssclass>item_subMenu_normal</cssclass>
+                <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+                <roles>Admin,BanQuanLy,BaoCao</roles>
+              </menuItem>
+              <menuItem>
+                <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Kế hoạch bảo trì</text>
+                <url>/Report/BuidingMaintenanceReport.aspx</url>
+                <cssclass>item_subMenu_normal</cssclass>
+                <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+                <roles>Admin,BanQuanLy,BaoCao</roles>
+              </menuItem>
+            </subMenu>
+
+          </menuItem>
+
+          <menuItem>
+            <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Báo cáo Nhật ký kỹ thuật</text>
+            <url>/Report/BuidingConstructionReport.aspx</url>
+            <cssclass>item_subMenu_normal</cssclass>
+            <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+            <roles>Admin,BanQuanLy,BaoCao</roles>
+          </menuItem>
+          <menuItem>
+            <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Tổng hợp sự cố kỹ thuật</text>
+            <url>/Report/BuidingTechStatusInfo.aspx</url>
+            <cssclass>item_subMenu_normal</cssclass>
+            <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+            <roles>Admin,BanQuanLy,BaoCao</roles>
+          </menuItem>
+
+          <menuItem>
+            <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Tổng hợp thi công nội thất</text>
+            <url>/Report/BuidingStatusInfo.aspx?type=1</url>
+            <cssclass>item_subMenu_normal</cssclass>
+            <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+            <roles>Admin,BanQuanLy,BaoCao</roles>
+          </menuItem>
+          <menuItem>
+            <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Tổng hợp sửa chữa xây dựng</text>
+            <url>/Report/BuidingStatusInfo.aspx?type=2</url>
+            <cssclass>item_subMenu_normal</cssclass>
+            <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+            <roles>Admin,BanQuanLy,BaoCao</roles>
+          </menuItem>
+        </subMenu>
+      </menuItem>
+
+      <menuItem>
+        <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Tổng hợp hợp đồng</text>
+        <url>/Report/CustomerContractMonthReport.aspx</url>
+        <cssclass>item_subMenu_normal</cssclass>
+        <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+        <roles>Admin,BanQuanLy,BaoCao</roles>
+      </menuItem>
+
+      <menuItem>
+        <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Tổng hợp gửi xe</text>
+        <cssclass>item_subMenu_normal01</cssclass>
+        <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+        <roles>Admin,BanQuanLy,BaoCao</roles>
+        <subMenu>
+          <menuItem>
+            <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Tổng hợp gửi xe tháng</text>
+            <url>/Report/CustomerParkingMonthReport.aspx</url>
+            <cssclass>item_subMenu_normal</cssclass>
+            <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+            <roles>Admin,BanQuanLy,BaoCao</roles>
+          </menuItem>
+          <menuItem>
+            <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Tổng hợp gửi xe lượt</text>
+            <url>/Report/TicketStubMonthReport.aspx</url>
+            <cssclass>item_subMenu_normal</cssclass>
+            <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+            <roles>Admin,BanQuanLy,BaoCao</roles>
+          </menuItem>
+        </subMenu>
+      </menuItem>
+
+      <menuItem>
+        <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Báo cáo Điện năng tiêu thụ</text>
+        <url>/Report/BuildingElecMonthReport.aspx</url>
+        <cssclass>item_subMenu_normal</cssclass>
+        <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+        <roles>Admin,BanQuanLy,BaoCao</roles>
+      </menuItem>
+      <menuItem>
+        <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Báo cáo Nước tiêu thụ</text>
+        <url>/Report/BuildingWaterMonthReport.aspx</url>
+        <cssclass>item_subMenu_normal</cssclass>
+        <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+        <roles>Admin,BanQuanLy,BaoCao</roles>
+      </menuItem>
+      <menuItem>
+        <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Báo cáo thu chi</text>
+        <url>/Report/MonthPaymentReport.aspx</url>
+        <cssclass>item_subMenu_normal</cssclass>
+        <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+        <roles>Admin,BanQuanLy,BaoCao</roles>
+      </menuItem>
+
+
+      <menuItem>
+        <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Báo cáo tổng hợp</text>
+        <url>/Report/BuildingMonthReport.aspx</url>
+        <cssclass>item_subMenu_normal</cssclass>
+        <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+        <roles>Admin,BanQuanLy,BaoCao</roles>
+      </menuItem>
+
+
+    </subMenu>
+  </menuItem>
+  <menuItem>
+    <text>
+      &lt;div style="width:100%; text-align:center;"  &gt;Quản lý người dùng&lt;/div&gt;<img align="middle" src="images/right.gif" width="16" height="16" />
+    </text>
+    <cssclass>item1_normal</cssclass>
+    <mouseovercssclass>mouseover1</mouseovercssclass>
+    <roles>Admin</roles>
+    <subMenu>
+      <menuItem>
+        <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Tạo người sử dụng</text>
+        <url>/User/ListUser.aspx</url>
+        <cssclass>item_subMenu_normal</cssclass>
+        <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+        <roles>Admin</roles>
+      </menuItem>
+    </subMenu>
+  </menuItem>
+  <menuItem>
+    <text>
+      &lt;div style="width:100%; text-align:center;"  &gt;Quản trị hệ thống&lt;/div&gt;<img align="middle" src="images/right.gif" width="16" height="16" />
+    </text>
+    <cssclass>item1_normal</cssclass>
+    <mouseovercssclass>mouseover1</mouseovercssclass>
+    <roles>Administrators</roles>
+    <subMenu>
+      <menuItem>
+        <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Danh sách tòa nhà</text>
+        <url>/Building/AdminBuildingList.aspx</url>
+        <cssclass>item_subMenu_normal</cssclass>
+        <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+        <roles>Administrators</roles>
+      </menuItem>
+      <menuItem>
+        <text>&amp;nbsp;&amp;nbsp;&amp;nbsp;Tạo người sử dụng</text>
+        <url>/User/AdminListUser.aspx</url>
+        <cssclass>item_subMenu_normal</cssclass>
+        <mouseovercssclass>item_subMenu_mouseover</mouseovercssclass>
+        <roles>Administrators</roles>
+      </menuItem>
+    </subMenu>
+  </menuItem>
+  <menuItem>
+    <text>&lt;div style="width:100%; text-align:center;"  &gt;Hướng dẫn&lt;/div&gt;</text>
+    <url>/Help/Help.aspx</url>
+    <cssclass>item1_normal</cssclass>
+    <mouseovercssclass>mouseover1</mouseovercssclass>
+    <roles>Admin,HanhChinh,KeToan,KyThuat,BanQuanLy</roles>
+  </menuItem>
+  <!--<menuItem>
+    <text>&lt;span style="display:inline-block;width:45px; height: 15px" &gt;&lt;/span&gt;</text>
+    <url></url>
+    <cssclass>item4_normal</cssclass>
+    <mouseovercssclass>item4_normal</mouseovercssclass><roles>Admin,HanhChinh,KeToan,KyThuat,BanQuanLy</roles>
+    <roles>Admin,Com,ComMng,Corp,</roles>
+  </menuItem>-->
+
+</menu>

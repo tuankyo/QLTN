@@ -1,0 +1,379 @@
+﻿/*CSS reset*/
+*
+{
+	padding:0px;
+	margin:0px;
+}
+option
+{
+	padding:2px 5px 2px 5px;
+	cursor:pointer;
+}
+option:hover
+{
+	background-color: #f0fff0;
+	border: 1px solid #d6d6d6;
+	font-weight:bold;
+}
+input.btn
+{
+	padding:3px 10px 3px 10px;
+}
+/*--------------------------------------------------------*/
+.dv_top
+{
+	width:95%;
+	background-color:White;
+	margin-top:10px;
+	margin-left:10px;
+	margin-right:10px;
+	padding:10px 0px 10px 0px;
+	float:left;
+}
+.dv_top p
+{
+	padding-left:10px;
+	font-weight:bold;
+}
+/*--------------------------------------------------------*/
+.dv_bottom
+{
+	width:95%;
+	background-color:White;
+	margin-top:10px;
+	margin-left:10px;
+	margin-right:10px;
+	padding:10px 0px 10px 0px;
+	float:left;
+}
+
+.clear
+{
+	clear:both;
+}
+/*--------------------------------------------------------*/
+.dv_left
+{
+	width:28%;
+	float:left;
+	height:100%;
+}
+.dv_left p 
+{
+	padding-left:80px;
+	font-weight:bold;
+}
+/*--------------------------------------------------------*/
+.dv_center 
+{
+	height:100%;
+	width:41%;
+	float:left;
+}
+.dv_center p
+{
+	font-weight:bold;
+}
+.dv_center table
+{
+	padding-left:10px;
+}
+
+.dv_center td
+{
+	padding-top:5px;
+	padding-bottom:5px;
+}
+/*--------------------------------------------------------*/
+.dv_right
+{
+	height:100%;
+	width:31%;
+	float:right;
+}
+.dv_right p
+{
+	padding-left:10px;
+	font-weight:bold;
+}
+/*--------------------------------------------------------*/
+.dv_main
+{
+	width:95%;
+	background-color:White;
+	float:left;
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:10px;
+	height:100%;
+}
+
+/*--------------------------------------------------------*/
+#lst_Group
+{
+	height:100%;
+	width:80%;
+	min-height:400px;
+}
+
+#lst_gofbranch
+{
+	height:200px;
+	width:100%;
+}
+
+#lst_branch
+{
+	height:100%;
+	width:70%;
+	min-height:400px;
+}
+
+.black_overlay
+{
+	display: none;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background: #f0f0f0;
+	z-index:1001;
+	-moz-opacity: 0.8;
+	opacity:.80;
+	filter: alpha(opacity=80);
+}
+.white_content {
+	display: none;
+	position: absolute;
+	top: 45%;
+	left: 45%;
+	width: auto;
+	height: auto;
+	padding: 16px;
+	background-color: white;
+	z-index:1002;
+	overflow: auto;
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+.grid_user
+{
+	background-color: White;
+    border: solid 1px #B5B9BC;
+    text-align: left;
+    width: 100%;
+    table-layout:fixed;
+    border-collapse:collapse;
+    word-wrap:break-word;
+}
+
+.grid_userheader
+{
+	background: transparent url(images/bgGrid.gif);
+    background-repeat:repeat-x;
+    height: 22px;
+    padding: 0px 0px 0px 0px;
+    border: solid 1px #B5B9BC;
+    text-align: center;    
+    font-weight:bold;
+}
+.grid_userheader td a
+{
+	font-weight:bold;
+}
+.grid_userItem
+{
+	height: 20px;
+	cursor:pointer;
+}
+
+.grid_userItem td
+{
+	border: solid 1px #B5B9BC;
+    padding: 0px 3px 0px 5px;
+}
+
+.long_content 
+{
+	height:20px;
+	overflow:auto;
+}
+
+.user_paging
+{
+	width:100%;
+	background-color:AliceBlue;
+	padding:5px 0px 5px 0px;
+	height:20px;
+}
+
+.user_paging a
+{
+	margin-right:10px;
+	font-weight:bold;
+}
+
+.user_paging div
+{
+	margin-right:10px;
+	font-weight:bold;
+	color:#ca6f16;
+}
+
+.highlight { height: 20px; background-color: #8888FF }
+
+.highlight td
+{
+	border: solid 1px #B5B9BC;
+    padding: 0px 3px 0px 5px;
+    word-wrap: break-word; 
+    text-overflow: ellipsis; 
+    overflow:hidden; 
+    white-space:nowrap;
+    -ms-text-overflow:ellipsis;
+    -o-text-overflow: ellipsis;
+}
+
+.standard_table td
+{
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+}
+
+.ver_HeaderHide
+{
+	height:15px;
+	font-weight:bold;
+	cursor:pointer;
+	font-size:12px;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-left:10px;
+	background-repeat:no-repeat;
+	background-position:left;
+	background-color:White;
+	background-image:url(../Default/images/BlueUp.png);
+	padding-left:15px;
+}
+
+.dv_function 
+{
+	margin-left:25px;
+}
+
+.ver_HeaderShow{
+	font-weight:bold;
+	color:#ca6f16;
+	font-size:12px;
+	cursor:pointer;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-left:10px;
+	background-repeat:no-repeat;
+	background-position:left;
+	background-color:White;
+	background-image:url(../Default/images/BlueDown.png);
+	padding-left:15px;
+}
+
+.funct_item
+{
+	padding:5px 0px 5px 5px;
+}
+
+.funct_table
+{
+	
+}
+
+.txt_date
+{
+	background-repeat:no-repeat;
+	background-position:right;
+	background-color:White;
+	background-image:url(../Default/images/calendar.png);
+}
+#dv_tree table
+{
+	width:900px;
+}
+#dv_tree td
+{
+	width:270px;
+	vertical-align:top;
+	padding: 5px 5px 5px 5px;
+}
+
+/*----------------------------------------------------*/
+.grid_bonus
+{
+	background-color: White;
+    border: solid 1px #B5B9BC;
+    text-align: left;
+    width: 100%;
+    border-collapse:collapse;
+    border: solid 1px #B5B9BC
+}
+
+.grid_bonus input[type="text"]
+{
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0; 
+	border: 0px solid #000000;
+	text-align:center;
+}
+
+.editbox
+{
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0; 
+	border: 0px solid #000000;
+	text-align:right;
+}
+
+.grid_bonus_header
+{
+	background: transparent url(../images/bgGrid.gif);
+    background-repeat:repeat-x;
+    height: 100%;
+    border: solid 1px #B5B9BC;
+    text-align: Left;    
+    font-weight:bold;
+}
+
+.grid_bonus_header td 
+{
+	font-weight : bold;
+	min-width:50px;
+	width:auto !important;
+    width:70px;
+}
+
+.grid_bonus td
+{
+	height:20px;
+}
+
+.grid_bonus td table
+{
+	background-color: White;
+    border-right: none;
+	border-bottom: none;
+	border-left: none;
+	border-top: none;
+    text-align: left;
+    width: 100%;
+	border-collapse:collapse;
+}
+
+.grid_bonus td table td
+{
+	width:50%;
+	text-align: center;    
+}

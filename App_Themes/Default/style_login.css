@@ -1,0 +1,100 @@
+/* CSS Document  */
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	margin: 0px auto;
+	background: url(images/pagelogin.jpg) #5ec5fd center top no-repeat;
+}
+.clear_both
+{
+	clear: both;
+}
+.container_login
+{
+	width: 420px;
+	margin: 0 auto;
+	align: center;
+}
+.panel_login
+{
+	width: 420px;
+	align: center;
+}
+.row_top_login
+{
+	width: 420px;
+	height: 186px;
+	float: left;
+	margin: 0px 0px 0px 0px;
+}
+.row_bottom_login
+{
+	background: url(images/box_login.png) top center no-repeat;
+	width: 420px;
+	min-height: 430px;
+	float: left;
+	margin: 0px 0px 0px 0px;
+}
+.form_login
+{
+	margin: 15px 10px 0px 20px;
+	width: 420px;
+}
+.title_login
+{
+	color: #ffffff;
+	font: bold 25px Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	padding: 18px 5px 6px 20px;
+}
+.text_form_login
+{
+	font: bold 11px Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	padding: 0px 5px 0px 5px;
+	text-align: left;
+}
+.text_form_login_2
+{
+	font: normal 11px Arial, Helvetica, sans-serif;
+	color: #000000;
+	padding: 3px 5px 10px 5px;
+	text-align: left;
+}
+.input_login
+{
+	background: url(images/bg_input.gif) #ffffff top left repeat-x;
+	font: normal 11px Arial,Tahoma, Verdana, Helvetica, sans-serif;
+	height: 19px;
+	border-right: #2690dc 1px solid;
+	border-top: #2690dc 1px solid;
+	border-left: #2690dc 1px solid;
+	border-bottom: #2690dc 1px solid;
+	border-collapse: collapse border=1;
+}
+.btn_login
+{
+	font: bold 12px Arial,Tahoma, Verdana, Helvetica, sans-serif;
+	color: #003366;
+	cursor: pointer;
+	background: url(images/btn_login.png);
+	padding: 0px 8px 3px 0px;
+	text-align: center;
+	cursor: hand;
+	width: 140px;
+	height: 40px;
+	border: 0;
+	font-family: Tahoma, Verdana, Arial;
+}
+.text_note_login
+{
+	font: normal 11px Arial, Helvetica, sans-serif;
+	color: #000000;
+	padding: 6px 5px 6px 5px;
+	text-align: left;
+}
+

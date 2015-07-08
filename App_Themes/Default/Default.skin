@@ -1,0 +1,79 @@
+﻿<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+
+<asp:CollapsiblePanelExtender SkinID="cpeDefault" runat="server" ExpandedImage="~/App_Themes/Default/Images/btns/collapse.gif" CollapsedImage="~/App_Themes/Default/Images/btns/expand.gif"
+    CollapsedText="Mở rộng" ExpandedText="Thu nhỏ">
+</asp:CollapsiblePanelExtender>
+
+<asp:GridView runat="server" SkinID="Default" AutoGenerateColumns="False" CssClass="grid" EmptyDataRowStyle-CssClass="grdItemEmpty" CellPadding="0" CellSpacing="0">     
+    <HeaderStyle CssClass="grdHeader" HorizontalAlign="Center" />  
+    <RowStyle CssClass="grdItem" />  
+</asp:GridView>
+
+<asp:GridView runat="server" SkinID="grdEmpty" AutoGenerateColumns="False" ShowHeader="false" BorderStyle="None" RowStyle-BorderStyle="None" 
+    CellPadding="1" CellSpacing="0" HorizontalAlign="Center" GridLines="None">      
+</asp:GridView>
+
+<asp:GridView runat="server" SkinID="DefaultGridView" AutoGenerateColumns="False" CssClass="grid" EmptyDataRowStyle-CssClass="grdViewItem" CellPadding="0" CellSpacing="0">     
+    <HeaderStyle CssClass="grdHeader" HorizontalAlign="Center" />  
+    <RowStyle CssClass="grdViewItem" />  
+</asp:GridView>
+
+<asp:GridView runat="server" SkinID="grdPager" AutoGenerateColumns="False" AllowPaging="True" PagerSettings-Position="Bottom" CssClass="grid" EmptyDataRowStyle-CssClass="grdItem" CellPadding="0" CellSpacing="0">     
+    <HeaderStyle CssClass="grdHeader" HorizontalAlign="Center"/>  
+    <RowStyle CssClass="grdItem" />  
+    <PagerTemplate>       
+        <div style="padding: 3px 5px 3px 5px">
+            <div style="float:left;">
+                <asp:Label ID="lblPage" runat="server" CssClass="pageIndex" Text="Dòng {0} - {1} / {2}"></asp:Label>
+            </div>
+            <div id="pagerButton" runat="server" style="float:right;">                                                                            
+                <asp:ImageButton ID="btnFirstPage" runat="server" SkinID="ibtnFirstPage" CommandName="Page"
+                    CommandArgument="First"  ImageAlign="AbsMiddle" />
+                <asp:ImageButton ID="btnPreviousPage" runat="server" SkinID="ibtnPreviousPage" CommandName="Page"
+                    CommandArgument="Prev"  ImageAlign="AbsMiddle" />
+                <asp:LinkButton ID="page1" runat="server" CommandName="Page" Visible = "false">1</asp:LinkButton>
+                <asp:LinkButton ID="page2" runat="server" CommandName="Page" Visible = "false">2</asp:LinkButton>
+                <asp:LinkButton ID="page3" runat="server" CommandName="Page" Visible = "false">3</asp:LinkButton>            
+                <asp:ImageButton ID="btnNextPage" runat="server" SkinID="ibtnNextPage" CommandName="Page"
+                    CommandArgument="Next"  ImageAlign="AbsMiddle" />                
+                <asp:ImageButton ID="btLastPage" runat="server" SkinID="ibtLastPage" CommandName="Page"
+                    CommandArgument="Last"  ImageAlign="AbsMiddle" />              
+            </div>
+            <div style="clear:both;"></div>
+        </div>
+    </PagerTemplate>
+    <PagerStyle CssClass="grdItemPager" /> 
+</asp:GridView>
+
+<asp:GridView runat="server" SkinID="grdList" AutoGenerateColumns="False" AllowPaging="False" CssClass="gridList" 
+    EmptyDataRowStyle-CssClass="grdItemList" CellPadding="0" CellSpacing="0">     
+    <HeaderStyle CssClass="grdHeaderList" HorizontalAlign="Center"/>  
+    <RowStyle CssClass="grdItemList" />  
+</asp:GridView>
+
+<asp:Label runat="server" SkinID="msgInformation" CssClass="msgInformation">
+</asp:Label>
+
+<asp:Label runat="server" SkinID="msgError" CssClass="msgError">
+</asp:Label>
+
+<asp:Label runat="server" SkinID="lblRequired" CssClass="lblRequired">
+</asp:Label>
+
+<asp:Label runat="server" SkinID="lblRight" CssClass="lblRight">
+</asp:Label>
+
+<asp:Label runat="server" SkinID="lblRightchk" CssClass="lblRightchk">
+</asp:Label>
+
+<asp:Label runat="server" SkinID="lblLeft" CssClass="lblLeft">
+</asp:Label>
+
+<asp:Label runat="server" SkinID="lblLeftchk" CssClass="lblLeftchk">
+</asp:Label>
+
+<asp:Label runat="server" SkinID="lblNote" CssClass="lblNote">
+</asp:Label>
+
+<asp:Textbox runat="server" SkinID="tbRight" CssClass="txtRight">
+</asp:Textbox>
